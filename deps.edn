@@ -1,0 +1,21 @@
+{:paths ["src" "resources"]
+
+ :deps
+ {org.clojure/clojure {:mvn/version "1.11.0"}
+  com.cognitect/transit-clj {:mvn/version "1.0.329"}
+  org.clojure/test.check {:mvn/version "1.1.1"}
+  lambdaisland/regal {:mvn/version "0.0.143"}
+  instaparse/instaparse {:mvn/version "1.4.10"}}
+
+
+ :aliases
+ {:dev
+  {:extra-paths ["dev"]
+   :extra-deps  {djblue/portal {:mvn/version "RELEASE"}
+                 camel-snake-kebab/camel-snake-kebab {:mvn/version "0.4.2"}
+                 clj-commons/clj-yaml {:mvn/version "0.7.108"}
+                 }}
+
+  :test
+  {:extra-paths ["test"]
+   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.64.1010"}}}}}

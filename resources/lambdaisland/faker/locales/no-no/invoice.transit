@@ -1,0 +1,1 @@
+["^ ","~:no-no",["^ ","~:invoice",["^ ","~:reference",["^ ","~:check-digit-method","kidmod10","~:pattern","\\d{24}#"]]]]
