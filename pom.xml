@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lambdaisland</groupId>
   <artifactId>faker</artifactId>
-  <version>0.1.4</version>
+  <version>0.2.8</version>
   <name>faker</name>
   <description>Port of the Faker Ruby gem</description>
   <url>https://github.com/lambdaisland/faker</url>
@@ -25,7 +25,7 @@
     <url>https://github.com/lambdaisland/faker</url>
     <connection>scm:git:git://github.com/lambdaisland/faker.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/lambdaisland/faker.git</developerConnection>
-    <tag>c00e5692221325cc384ee1cc8a1018901b9fce7c</tag>
+    <tag>96096f933d71e8b5193958097776371a53125175</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -81,7 +81,7 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <git-revision>c00e5692221325cc384ee1cc8a1018901b9fce7c</git-revision>
+              <git-revision>96096f933d71e8b5193958097776371a53125175</git-revision>
             </manifestEntries>
           </archive>
         </configuration>
