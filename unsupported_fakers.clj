@@ -755,9 +755,6 @@
 [:dr-who :quotes-todo]
 ;;=> nil
 
-[:finance :credit-card :laser]
-;;=> java.lang.NullPointerException
-
 [:finance :credit-card :maestro]
 ;;=> java.lang.NullPointerException
 

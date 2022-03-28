@@ -1,26 +1,29 @@
+:default
+;;=> :default
+
 [:address :building-number]
-;;=> 510
+;;=> 5573
 
 [:address :city-prefix]
 ;;=> North
 
 [:address :city-suffix]
-;;=> borough
+;;=> shire
 
 [:address :city-with-state]
-;;=> Lake Merrillborough, Utah
+;;=> West Jimmie, Rhode Island
 
 [:address :city]
-;;=> Morganville
+;;=> East Eddymouth
 
 [:address :community-prefix]
-;;=> Summer
+;;=> Eagle
 
 [:address :community-suffix]
-;;=> Place
+;;=> Court
 
 [:address :community]
-;;=> University Estates
+;;=> Willow Pointe
 
 [:address :country-by-code :ad]
 ;;=> Andorra
@@ -1496,262 +1499,265 @@
 ;;=> ZW
 
 [:address :country-code-long]
-;;=> MKD
+;;=> KNA
 
 [:address :country-code]
-;;=> EG
+;;=> YE
 
 [:address :country]
-;;=> Liberia
+;;=> Thailand
 
 [:address :default-country]
 ;;=> United States of America
 
 [:address :full-address]
-;;=> 1343 Hong Avenue, New Hong, NC 59689
+;;=> 99668 Twanna Skyway, Twannaside, AK 48887
 
 [:address :mail-box]
-;;=> PO Box 5968
+;;=> PO Box 820
 
 [:address :postcode-by-state :ak]
-;;=> 99538
+;;=> 99519
 
 [:address :postcode-by-state :al]
-;;=> 35043
+;;=> 35039
 
 [:address :postcode-by-state :ar]
-;;=> 71770
+;;=> 71736
 
 [:address :postcode-by-state :as]
-;;=> 96710
+;;=> 96770
 
 [:address :postcode-by-state :az]
-;;=> 85060
+;;=> 85024
 
 [:address :postcode-by-state :ca]
-;;=> 90098
+;;=> 90012
 
 [:address :postcode-by-state :co]
-;;=> 80079
+;;=> 80017
 
 [:address :postcode-by-state :ct]
-;;=> 06145
+;;=> 06130
 
 [:address :postcode-by-state :dc]
-;;=> 20431
+;;=> 20443
 
 [:address :postcode-by-state :de]
-;;=> 19829
+;;=> 19855
 
 [:address :postcode-by-state :fl]
-;;=> 32239
+;;=> 32215
 
 [:address :postcode-by-state :ga]
-;;=> 30169
+;;=> 30160
 
 [:address :postcode-by-state :hi]
-;;=> 96719
+;;=> 96788
 
 [:address :postcode-by-state :ia]
-;;=> 51014
+;;=> 51090
 
 [:address :postcode-by-state :id]
-;;=> 83234
+;;=> 83204
 
 [:address :postcode-by-state :il]
-;;=> 60031
+;;=> 60055
 
 [:address :postcode-by-state :in]
-;;=> 46325
+;;=> 46398
 
 [:address :postcode-by-state :ks]
-;;=> 66600
+;;=> 66626
 
 [:address :postcode-by-state :ky]
-;;=> 40428
+;;=> 40489
 
 [:address :postcode-by-state :la]
-;;=> 70117
+;;=> 70171
 
 [:address :postcode-by-state :ma]
-;;=> 02690
+;;=> 02628
 
 [:address :postcode-by-state :md]
-;;=> 21053
+;;=> 21031
 
 [:address :postcode-by-state :me]
-;;=> 04263
+;;=> 04285
 
 [:address :postcode-by-state :mi]
-;;=> 48038
+;;=> 48068
 
 [:address :postcode-by-state :mn]
-;;=> 55594
+;;=> 55538
 
 [:address :postcode-by-state :mo]
-;;=> 65071
+;;=> 65016
 
 [:address :postcode-by-state :ms]
-;;=> 38743
+;;=> 38762
 
 [:address :postcode-by-state :mt]
-;;=> 59045
+;;=> 59096
 
 [:address :postcode-by-state :nc]
-;;=> 28871
+;;=> 28888
 
 [:address :postcode-by-state :nd]
-;;=> 58607
+;;=> 58653
 
 [:address :postcode-by-state :ne]
-;;=> 68895
+;;=> 68813
 
 [:address :postcode-by-state :nh]
-;;=> 03618
+;;=> 03651
 
 [:address :postcode-by-state :nj]
-;;=> 07686
+;;=> 07619
 
 [:address :postcode-by-state :nm]
-;;=> 88013
+;;=> 88045
 
 [:address :postcode-by-state :nv]
-;;=> 89862
+;;=> 89842
 
 [:address :postcode-by-state :ny]
-;;=> 12222
+;;=> 12268
 
 [:address :postcode-by-state :oh]
-;;=> 44407
+;;=> 44441
 
 [:address :postcode-by-state :ok]
-;;=> 73083
+;;=> 73090
 
 [:address :postcode-by-state :or]
-;;=> 97928
+;;=> 97997
 
 [:address :postcode-by-state :pa]
-;;=> 18607
+;;=> 18697
 
 [:address :postcode-by-state :ri]
-;;=> 02998
+;;=> 02999
 
 [:address :postcode-by-state :sc]
-;;=> 29908
+;;=> 29918
 
 [:address :postcode-by-state :sd]
-;;=> 57795
+;;=> 57717
 
 [:address :postcode-by-state :tn]
-;;=> 38397
+;;=> 38327
 
 [:address :postcode-by-state :tx]
-;;=> 79830
+;;=> 79839
 
 [:address :postcode-by-state :ut]
-;;=> 84751
+;;=> 84715
 
 [:address :postcode-by-state :va]
-;;=> 22274
+;;=> 22298
 
 [:address :postcode-by-state :vt]
-;;=> 05077
+;;=> 05062
 
 [:address :postcode-by-state :wa]
-;;=> 99058
+;;=> 99043
 
 [:address :postcode-by-state :wi]
-;;=> 54990
+;;=> 54997
 
 [:address :postcode-by-state :wv]
-;;=> 24780
+;;=> 24733
 
 [:address :postcode-by-state :wy]
-;;=> 83143
+;;=> 83121
 
 [:address :postcode]
-;;=> 23081
+;;=> 10180
 
 [:address :secondary-address]
-;;=> Apt. 166
+;;=> Apt. 768
 
 [:address :state-abbr]
-;;=> MO
+;;=> MS
 
 [:address :state]
-;;=> Kentucky
+;;=> Vermont
 
 [:address :street-address]
-;;=> 11736 Troy Station
+;;=> 561 Lester Coves
 
 [:address :street-name]
-;;=> Bula Pike
+;;=> Karlyn Gardens
 
 [:address :street-suffix]
-;;=> Tunnel
+;;=> Dale
 
 [:address :time-zone]
-;;=> Asia/Kathmandu
+;;=> Europe/Athens
+
+[:address :zip-code]
+;;=> 58172-6390
 
 [:adjective :negative]
-;;=> wild
+;;=> annoyed
 
 [:adjective :positive]
-;;=> combative
+;;=> smiling
 
 [:ancient :god]
-;;=> Ares
+;;=> Hermes
 
 [:ancient :hero]
-;;=> Deianeira
+;;=> Diomedes
 
 [:ancient :primordial]
-;;=> Erebus
+;;=> Chaos
 
 [:ancient :titan]
-;;=> Dione
+;;=> Hyperion
 
 [:app :author]
-;;=> Mitchel Schmidt
+;;=> Crona-Crona
 
 [:app :name]
-;;=> Solarbreeze
+;;=> Flowdesk
 
 [:app :version]
-;;=> 8.38
+;;=> 0.03
 
 [:appliance :brand]
-;;=> Whirlpool
+;;=> KitchenAid
 
 [:appliance :equipment]
-;;=> Micathermic heater
+;;=> Water purifier
 
 [:aqua-teen-hunger-force :character]
-;;=> Cybernetic Ghost of Christmas Past from the Future
+;;=> MC Pee Pants
 
 [:aqua-teen-hunger-force :quote]
-;;=> Now, I am not a violent person. But I would kill somebody, in front of they own grandmother, for a ten-speed.
+;;=> TONIGHT...you
 
 [:artist :names]
-;;=> Degas
+;;=> Joan Miro
 
 [:australia :animals]
-;;=> Pelican
+;;=> Galah
 
 [:australia :locations]
-;;=> Wagga	Wagga
+;;=> Darwin
 
 [:australia :states]
-;;=> Northern Territory
+;;=> Queensland
 
 [:back-to-the-future :characters]
-;;=> Mr. Peabody
+;;=> Lou
 
 [:back-to-the-future :dates]
-;;=> October 21, 2015
+;;=> October 26, 1985
 
 [:back-to-the-future :quotes]
-;;=> He's an absolute dream!
+;;=> I g-guess you guys aren't ready for that yet. But your kids are gonna love it.
 
 [:bank :iban-details :ad]
 ;;=> {:bban-pattern \d{8}[A-Z0-9]{12}, :length 24}
@@ -1958,605 +1964,662 @@
 ;;=> {:bban-pattern \d{16}, :length 20}
 
 [:bank :name]
-;;=> ABN AMRO FUND MANAGERS LIMITED
+;;=> THE ROYAL BANK OF SCOTLAND PLC (FORMER RBS NV)
 
 [:bank :swift-bic]
-;;=> AANLGB2L
+;;=> BCYPGB2LHHB
 
 [:barcode :composite-symbol]
-;;=> 60??16??
+;;=> ????????
 
 [:barcode :ean-13]
-;;=> 537439755330
+;;=> 990025982022
 
 [:barcode :ean-8]
-;;=> 9535507
+;;=> 5131573
 
 [:barcode :isbn]
-;;=> 979103222990
+;;=> 979118232844
 
 [:barcode :ismn]
-;;=> 979052126921
+;;=> 979061060464
 
 [:barcode :issn]
-;;=> 977125705957
+;;=> 977962631143
 
 [:barcode :upc-a]
-;;=> 22230739453
+;;=> 57735860400
 
 [:barcode :upc-e]
-;;=> 1704110
+;;=> 1977046
 
 [:basketball :coaches]
-;;=> Doc Rivers
+;;=> Steve Kerr
 
 [:basketball :players]
-;;=> Klay Thompson
+;;=> Stephen Curry
 
 [:basketball :positions]
-;;=> Power Forward
+;;=> Center
 
 [:basketball :teams]
-;;=> Minnesota Timberwolves
+;;=> Orlando Magic
 
 [:beer :brand]
-;;=> Blue Moon
+;;=> Harp
 
 [:beer :hop]
-;;=> Bravo
+;;=> Bitter Gold
 
 [:beer :malt]
-;;=> Vienna
+;;=> Caramel
 
 [:beer :name]
-;;=> Westmalle Trappist Tripel
+;;=> Weihenstephaner Hefeweissbier
 
 [:beer :style]
-;;=> Porter
+;;=> Fruit Beer
 
 [:beer :yeast]
-;;=> 1728 - Scottish Ale
+;;=> 3638 - Bavarian Wheat
 
 [:bible :character]
-;;=> Peter
+;;=> Caleb
 
 [:bible :location]
-;;=> Babylon
+;;=> Rome
 
 [:bible :quote]
-;;=> Love is patient, love is kind, and is not jealous; love does not brag and is not arrogant, does not act unbecomingly; it does not seek its own [will], is not provoked, does not take into account a wrong suffered, does not rejoice in unrighteousness, but rejoices with the truth; bears all things, believes all things, hopes all things, endures all things.
+;;=> Whatever you do, work at it with all your heart.
 
 [:big-bang-theory :characters]
-;;=> Denise
+;;=> Stuart Bloom
 
 [:big-bang-theory :quotes]
-;;=> Not knowing is part of the fun. Was that the motto of your community college?
+;;=> Hard as this may be to believe, it’s possible that I’m not boyfriend material.
 
 [:blood :group]
 ;;=> A+
 
 [:blood :rh-factor]
-;;=> +
+;;=> -
 
 [:blood :type]
-;;=> A
+;;=> B
 
 [:bojack-horseman :characters]
-;;=> Beatrice Horseman
+;;=> Hollyhock
 
 [:bojack-horseman :quotes]
-;;=> Yes, I ate all the muffins, because I have no self-control and I hate myself
+;;=> Ow, crap. I hate this. Running is terrible. Everything is the worst
 
 [:bojack-horseman :tongue-twisters]
-;;=> That's sorta been thwarted unfortunately cos Courtney's purportedly falling short of shoring up fourth quadrant support
+;;=> Portnoy finds joy in hoi polloi boy toy
 
 [:book :author]
-;;=> Shon Dickinson
+;;=> Terry Renner Jr.
 
 [:book :genre]
-;;=> Metafiction
+;;=> Mythology
 
 [:book :publisher]
-;;=> André Deutsch
+;;=> Koren Publishers Jerusalem
 
 [:book :title]
-;;=> Absalom, Absalom!
+;;=> The Millstone
 
 [:books :the-kingkiller-chronicle :books]
-;;=> The Name of the Wind
+;;=> The Wise Man's Fear
 
 [:books :the-kingkiller-chronicle :characters]
-;;=> Wilem
+;;=> Auri
 
 [:books :the-kingkiller-chronicle :creatures]
-;;=> Angel
+;;=> Scrael
 
 [:books :the-kingkiller-chronicle :locations]
-;;=> Levinshir
+;;=> Aryen
 
 [:bossa-nova :artists]
-;;=> Joao Gilberto
+;;=> Jorge Ben Jor
 
 [:bossa-nova :songs]
-;;=> Agua de beber
+;;=> Luiza
 
 [:breaking-bad :character]
-;;=> Krazy-8
+;;=> George Merkert
 
 [:breaking-bad :episode]
-;;=> Más
+;;=> ABQ
 
 [:brooklyn-nine-nine :characters]
-;;=> Hitchcock
+;;=> Kevin Cozner
 
 [:brooklyn-nine-nine :quotes]
-;;=> Title of your sex tape.
+;;=> It's not that weird to say, 'May I have some cocaine?
 
 [:buffy :actors]
-;;=> Rachel Bilson
+;;=> Ashanti
 
 [:buffy :big-bads]
-;;=> Warren Mears
+;;=> The First Evil
 
 [:buffy :characters]
-;;=> Jonathan Levinson
+;;=> Faith Lehane
 
 [:buffy :episodes]
-;;=> Becoming, Part One
+;;=> The Pack
 
 [:buffy :quotes]
-;;=> Power. I have it. They don't. This bothers them.
+;;=> I'm beyond tired. I'm beyond scared. I'm standing on the mouth of hell, and it's gonna swallow me whole. And it'll choke on me. We're not ready? They're not ready.
 
 [:business :credit-card-numbers]
-;;=> 1212-1221-1121-1234
+;;=> 1234-2121-1221-1211
 
 [:business :credit-card-types]
 ;;=> forbrugsforeningen
 
 [:camera :brand-with-model]
-;;=> Panasonic Lumix DMC-TS6
+;;=> Samsung WB350F
 
 [:camera :brand]
-;;=> Leica
+;;=> Benq
 
 [:camera :model]
-;;=> GFX 50S
+;;=> D750
 
 [:cannabis :brands]
-;;=> Cannapunch
+;;=> The Goodship Company
 
 [:cannabis :buzzwords]
-;;=> cbd
+;;=> wake and bake
 
 [:cannabis :cannabinoid-abbreviations]
-;;=> CBD
+;;=> THCv
 
 [:cannabis :cannabinoids]
-;;=> Cannabigerol
+;;=> Cannabidiolic Acid
 
 [:cannabis :categories]
-;;=> seeds & clones
+;;=> crystalline
 
 [:cannabis :health-benefits]
-;;=> kills or slows bacteria growth
+;;=> treats allergy symptoms
 
 [:cannabis :medical-uses]
-;;=> bone stimulant
+;;=> anorectic
 
 [:cannabis :strains]
-;;=> Nectarine
+;;=> Colfax Cookies
 
 [:cannabis :terpenes]
-;;=> Linalool
+;;=> p-Cymene
 
 [:cannabis :types]
 ;;=> sativa
 
 [:cell-phone :formats]
-;;=> 1-539-904-5113
+;;=> 1-365-552-6103
 
 [:chiquito :expressions]
-;;=> Por la gloria de mi madre
+;;=> ¡Noorl!
 
 [:chiquito :jokes]
 ;;=> - Está la cosa muy mar muy mar muy mar
  - A mí me lo va a decir que me he casao y estoy haciendo el viaje de novios solo
 
 [:chiquito :sentences]
-;;=> Estoy friendo los huevos con saliva
+;;=> En vez del graduado escolar tenía una etiqueta de Anís del Mono
 
 [:chiquito :terms]
-;;=> Guarrerida española
+;;=> Gromenauer
 
 [:chuck-norris :fact]
-;;=> Project managers never ask Chuck Norris for estimations... ever.
+;;=> Chuck Norris knows the last digit of PI.
 
 [:code :asin]
-;;=> B0000DHCHM
+;;=> B000BTBGDK
 
 [:coffee :blend-name]
-;;=> Kreb-Full-o Been
+;;=> Brooklyn Choice
 
 [:coffee :body]
-;;=> coating
+;;=> full
 
 [:coffee :country]
-;;=> Kenya
+;;=> Sumatra
 
 [:coffee :descriptor]
-;;=> bergamot
+;;=> dates
 
 [:coffee :intensifier]
-;;=> astringent
+;;=> clean
 
 [:coffee :name-1]
-;;=> Joe
+;;=> Green
 
 [:coffee :name-2]
-;;=> Look
+;;=> Delight
 
 [:coffee :notes]
-;;=> dirty, creamy, lemon verbena, lemon verbena, lemon verbena
+;;=> lingering, velvety, raisin, raisin, raisin
 
 [:coffee :regions :brazil]
-;;=> Mogiana
+;;=> Sul Minas
 
 [:coffee :regions :burundi]
 ;;=> Kayanza
 
 [:coffee :regions :colombia]
-;;=> Cauca
+;;=> Huila
 
 [:coffee :regions :costa-rica]
-;;=> Brunca
+;;=> Guanacaste
 
 [:coffee :regions :el-salvador]
-;;=> El Balsamo-Quetzaltepec
+;;=> Chichontepec
 
 [:coffee :regions :ethiopia]
-;;=> Limu
+;;=> Lekempti
 
 [:coffee :regions :guatemala]
-;;=> Atitlan
+;;=> Acatenango
 
 [:coffee :regions :honduras]
-;;=> Agalta
+;;=> Comayagua
 
 [:coffee :regions :india]
 ;;=> Manjarabad
 
 [:coffee :regions :kenya]
-;;=> Kiamba
+;;=> Embu
 
 [:coffee :regions :mexico]
-;;=> Colima
+;;=> Puebla
 
 [:coffee :regions :nicaragua]
-;;=> Boaco
+;;=> Granada
 
 [:coffee :regions :panama]
-;;=> Volcan
+;;=> Chiriqui
 
 [:coffee :regions :rwanda]
-;;=> Rulindo
+;;=> Lake Kivu Region
 
 [:coffee :regions :sumatra]
-;;=> Aceh
+;;=> Lintong
 
 [:coffee :regions :tanzania]
-;;=> Western Region, Bukova
+;;=> Southern Region, Mbinga
 
 [:coffee :regions :uganda]
-;;=> Mount Elgon
+;;=> Bugisu
 
 [:coffee :regions :yemen]
-;;=> Mattari
+;;=> Raimi
 
 [:coffee :variety]
-;;=> Gimma
+;;=> Typica
 
 [:coin :flip]
-;;=> Tails
+;;=> Heads
 
 [:color :name]
-;;=> olive
+;;=> champagne
 
 [:commerce :brand]
-;;=> Apple
+;;=> Adidas
 
 [:commerce :department]
 ;;=> Home
 
 [:commerce :product-name :adjective]
-;;=> Ergonomic
+;;=> Enormous
 
 [:commerce :product-name :material]
-;;=> Aluminum
+;;=> Wooden
 
 [:commerce :product-name :product]
-;;=> Hat
+;;=> Plate
 
 [:commerce :promotion-code :adjective]
-;;=> Amazing
+;;=> Awesome
 
 [:commerce :promotion-code :noun]
-;;=> Discount
+;;=> Promo
 
 [:commerce :vendor]
 ;;=> Amazon
 
 [:community :characters]
-;;=> Leonard Rodriguez
+;;=> Annie Edison
 
 [:community :quotes]
-;;=> We’re all kind of crazytown bananapants.
+;;=> Don’t talk to me about romance. I had a three way in a hot air balloon.
 
 [:company :bs]
-;;=> productize
+;;=> channels
 
 [:company :buzzwords]
-;;=> complexity
+;;=> 3rd generation
 
 [:company :industry]
-;;=> Health, Wellness and Fitness
+;;=> Aviation & Aerospace
 
 [:company :name]
-;;=> Murphy-Murphy
+;;=> Kuhn-Kuhn
 
 [:company :profession]
-;;=> butcher
+;;=> human resources
 
 [:company :sic-code]
-;;=> 0241
+;;=> 5141
 
 [:company :suffix]
-;;=> and Sons
+;;=> Group
 
 [:company :type]
-;;=> Government Agency
+;;=> Self-Employed
 
 [:compass :abbreviation]
-;;=> SbW
+;;=> SEbS
 
 [:compass :azimuth]
-;;=> 281.25
+;;=> 337.5
 
 [:compass :cardinal :abbreviation]
-;;=> N
+;;=> S
 
 [:compass :cardinal :azimuth]
-;;=> 90
+;;=> 180
 
 [:compass :cardinal :word]
-;;=> west
+;;=> north
+
+[:compass :cardinal-abbreviation]
+;;=> N
+
+[:compass :cardinal-azimuth]
+;;=> 180
+
+[:compass :cardinal]
+;;=> north
 
 [:compass :direction]
-;;=> south
+;;=> west by south
 
 [:compass :half-wind :abbreviation]
-;;=> NNE
+;;=> SSW
 
 [:compass :half-wind :azimuth]
-;;=> 67.5
+;;=> 292.5
 
 [:compass :half-wind :word]
 ;;=> north-northeast
 
+[:compass :half-wind-abbreviation]
+;;=> SSE
+
+[:compass :half-wind-azimuth]
+;;=> 22.5
+
+[:compass :half-wind]
+;;=> north-northwest
+
 [:compass :ordinal :abbreviation]
-;;=> SW
+;;=> NW
 
 [:compass :ordinal :azimuth]
-;;=> 315
+;;=> 225
 
 [:compass :ordinal :word]
 ;;=> northeast
 
+[:compass :ordinal-abbreviation]
+;;=> NW
+
+[:compass :ordinal-azimuth]
+;;=> 225
+
+[:compass :ordinal]
+;;=> southwest
+
 [:compass :quarter-wind :abbreviation]
-;;=> SWbS
+;;=> NEbE
 
 [:compass :quarter-wind :azimuth]
-;;=> 101.25
+;;=> 281.25
 
 [:compass :quarter-wind :word]
-;;=> southwest by west
+;;=> southeast by east
+
+[:compass :quarter-wind-abbreviation]
+;;=> NbW
+
+[:compass :quarter-wind-azimuth]
+;;=> 236.25
+
+[:compass :quarter-wind]
+;;=> southeast by south
 
 [:computer :os :linux]
-;;=> openSUSE Leap 15.1
+;;=> RHEL 6.10
 
 [:computer :os :macos]
-;;=> High Sierra (10.13)
+;;=> Mojave (10.14)
 
 [:computer :os :windows]
-;;=> Windows Server 2019
+;;=> Windows Server 2016
 
 [:computer :platform]
-;;=> macOS
+;;=> Windows
 
 [:computer :type]
-;;=> server
+;;=> workstation
 
 [:conan :characters]
-;;=> Kaito Kuroba
+;;=> Tsutomu Akai
 
 [:conan :gadgets]
-;;=> Stun-Gun Wristwatch
+;;=> Turbo Engine Scooter
 
 [:conan :vehicles]
-;;=> Chiba's Nissan GT-R R35 (2017)
+;;=> Kusuda's Nissan
 
 [:construction :heavy-equipment]
-;;=> Dragline
+;;=> Backhoe
 
 [:construction :materials]
 ;;=> Rubber
 
 [:construction :roles]
-;;=> Construction Worker
+;;=> Construction Foreman
 
 [:construction :standard-cost-codes]
-;;=> 8 - Doors and Windows
+;;=> 15-800 - Air Distribution
 
 [:construction :subcontract-categories]
-;;=> Waterproofing & Caulking
+;;=> Structural and Misc Steel (Fabrication)
 
 [:construction :trades]
-;;=> Stucco Mason
+;;=> Tile Setter
 
 [:cosmere :allomancers]
-;;=> Coinshot
+;;=> Oracle
 
 [:cosmere :aons]
-;;=> Ela
+;;=> Ire
 
 [:cosmere :feruchemists]
-;;=> Subsumer
+;;=> Archivist
 
 [:cosmere :heralds]
-;;=> Battar
+;;=> Talanel
 
 [:cosmere :knights-radiant]
 ;;=> Lightweaver
 
 [:cosmere :metals]
-;;=> Chromium
+;;=> Copper
 
 [:cosmere :shard-worlds]
-;;=> Taldain
+;;=> Scadrial
 
 [:cosmere :shards]
-;;=> Devotion
+;;=> Dominion
 
 [:cosmere :sprens]
-;;=> Bindspren
+;;=> Cryptic
 
 [:cosmere :surges]
-;;=> Gravitation
+;;=> Cohesion
 
 [:creature :animal :name]
-;;=> cod
+;;=> gerbil
+
+[:creature :bird :adjective]
+;;=> greater
 
 [:creature :bird :adjectives]
-;;=> lesser
+;;=> great
 
 [:creature :bird :anatomy-past-tense]
 ;;=> fronted
 
 [:creature :bird :anatomy]
-;;=> cap
+;;=> crest
+
+[:creature :bird :color]
+;;=> smoky
 
 [:creature :bird :colors]
-;;=> fulvous
+;;=> ruddy
 
 [:creature :bird :common-family-name]
-;;=> African and Green Broadbills
+;;=> Malagasy Warblers
+
+[:creature :bird :common-name]
+;;=> Spiderhunter
+
+[:creature :bird :emotional-adjective]
+;;=> flirty
 
 [:creature :bird :emotional-adjectives]
-;;=> quizzical
+;;=> irritated
 
 [:creature :bird :geo]
-;;=> Arabian
+;;=> New Zeland
+
+[:creature :bird :implausible-common-name]
+;;=> rough anxious Grassbird
 
 [:creature :bird :implausible-common-names]
-;;=> Baltimore drunk Bunting
+;;=> greater angry Snowcock
 
 [:creature :bird :order-common-map]
-;;=> {:accipitriformes Sparrowhawk, :anseriformes Canvasback, :apterygiformes Kiwi, :bucerotiformes Woodhoopoe, :caprimulgiformes Awlbill, :cariamiformes Seriema, :casuariiformes Emu, :cathartiformes Vulture, :charadriiformes Guillemot, :ciconiiformes Adjutant, :coliiformes Mousebird, :columbiformes Dodo, :coraciiformes Dollarbird, :cuculiformes Ani, :eurypygiformes Sunbittern, :falconiformes Falcon, :galbuliformes Jacamar, :galliformes Brushturkey, :gaviiformes Loon, :gruiformes Sora, :mesitornithiformes Mesite, :musophagiformes Turaco, :opisthocomiformes Hoatzin, :otidiformes Florican, :passeriformes Heathwren, :pelecaniformes Spoonbill, :phaethontiformes Tropicbird, :phoenicopteriformes Flamingo, :piciformes Wryneck, :podicipediformes Grebe, :procellariiformes Shearwater, :psittaciformes Macaw, :pterocliformes Sandgrouse, :rheiformes Rhea, :sphenisciformes Penguin, :strigiformes Owlet, :struthioniformes Ostrich, :suliformes Anhinga, :tinamiformes Tinamou, :trogoniformes Quetzal}
+;;=> {:accipitriformes Eagle, :anseriformes Goldeneye, :apterygiformes Kiwi, :bucerotiformes Hoopoe, :caprimulgiformes Daggerbill, :cariamiformes Seriema, :casuariiformes Emu, :cathartiformes Vulture, :charadriiformes Ruff, :ciconiiformes Jabiru, :coliiformes Mousebird, :columbiformes Dove, :coraciiformes Dollarbird, :cuculiformes Ani, :eurypygiformes Kagu, :falconiformes Hobby, :galbuliformes Monklet, :galliformes Argus, :gaviiformes Loon, :gruiformes Takahe, :mesitornithiformes Mesite, :musophagiformes Turaco, :opisthocomiformes Hoatzin, :otidiformes Bustard, :passeriformes Dipper, :pelecaniformes Shoebill, :phaethontiformes Tropicbird, :phoenicopteriformes Flamingo, :piciformes Toucan, :podicipediformes Grebe, :procellariiformes Fulmar, :psittaciformes Bluebonnet, :pterocliformes Sandgrouse, :rheiformes Rhea, :sphenisciformes Penguin, :strigiformes Owl, :struthioniformes Ostrich, :suliformes Cormorant, :tinamiformes Nothura, :trogoniformes Trogon}
+
+[:creature :bird :plausible-common-name]
+;;=> common neck Cormorant
 
 [:creature :bird :plausible-common-names]
-;;=> common eye Oystercatcher
+;;=> ferruginous-capped Oilbird
+
+[:creature :bird :silly-adjective]
+;;=> flatulent
 
 [:creature :bird :silly-adjectives]
-;;=> dumb
+;;=> silly
 
 [:creature :cat :breed]
-;;=> Nebelung
+;;=> Turkish Angora
 
 [:creature :cat :name]
-;;=> Sir Pounce-a-lot
+;;=> Millie
 
 [:creature :cat :registry]
-;;=> Emirates Feline Federation
+;;=> Cat Aficionado Association
 
 [:creature :dog :age]
-;;=> puppy
+;;=> young
 
 [:creature :dog :breed]
-;;=> Keeshond
+;;=> Cardigan Corgi
 
 [:creature :dog :coat-length]
-;;=> long
+;;=> wire
 
 [:creature :dog :meme-phrase]
-;;=> boop the snoot
+;;=> long boi
 
 [:creature :dog :name]
-;;=> Lilly
+;;=> Spike
 
 [:creature :dog :size]
-;;=> small
+;;=> large
 
 [:creature :dog :sound]
-;;=> ruff
+;;=> woof woof
 
 [:creature :horse :breed]
-;;=> Lusitano
+;;=> Monchina
 
 [:creature :horse :name]
-;;=> D’oro
+;;=> Kit Kat
 
 [:crypto-coin :coin]
-;;=> IOTA,             IOT,  https://i.imgur.com/DGFCOVt.png
+;;=> TRON,             TRX,  https://i.imgur.com/grG05ZK.png
 
 [:culture-series :books]
-;;=> The Player of Games
+;;=> Inversions
 
 [:culture-series :civs]
 ;;=> Bulbitian
 
 [:culture-series :culture-ship-class-abvs]
-;;=> SL
+;;=> LOU
 
 [:culture-series :culture-ship-classes]
 ;;=> General Contact Unit
 
 [:culture-series :culture-ships]
-;;=> Just The Washing Instruction Chip In Life's Rich Tapestry
+;;=> Outstanding Contribution To The Historical Process
 
 [:culture-series :planets]
-;;=> Nauptria
+;;=> Idir
 
 [:currency :code]
-;;=> JOD
+;;=> CZK
 
 [:currency :name]
-;;=> Lebanese Pound
+;;=> Belarussian Ruble
 
 [:currency :symbol]
-;;=> ¥
+;;=> Rp
 
 [:dc-comics :hero]
-;;=> Steel
+;;=> Apollo
 
 [:dc-comics :heroine]
-;;=> Mary Marvel
+;;=> Wonder Woman
 
 [:dc-comics :name]
-;;=> Alfred Pennyworth
+;;=> Maxwell Lord
 
 [:dc-comics :title]
-;;=> Kingdom Come
+;;=> Batman: Year One
 
 [:dc-comics :villain]
-;;=> The Joker
+;;=> Deadshot
 
 [:demographic :demonym]
-;;=> Iranian
+;;=> Latvian
 
 [:demographic :educational-attainment]
-;;=> 12th grade - No Diploma
+;;=> No schooling completed
 
 [:demographic :marital-status]
-;;=> Never married
+;;=> Separated
 
 [:demographic :race]
 ;;=> Native Hawaiian or Other Pacific Islander
@@ -2565,388 +2628,388 @@
 ;;=> Male
 
 [:departed :actors]
-;;=> James Badge Dale
+;;=> Kevin Corrigan
 
 [:departed :characters]
-;;=> Madolyn Madden
+;;=> Colin Sullivan
 
 [:departed :quotes]
-;;=> You have an immaculate record. Some guys don't trust an immaculate record. I do. I have an immaculate record.
+;;=> One of you mugs got a light?
 
 [:dessert :flavor]
-;;=> Almond
+;;=> Peanut Butter
 
 [:dessert :topping]
-;;=> Powdered Sugar
+;;=> Cheesecake Bites
 
 [:dessert :variety]
-;;=> Brownie
+;;=> Frozen Yogurt
 
 [:device :manufacturer]
-;;=> Google
+;;=> OnePlus
 
 [:device :model-name]
-;;=> iPhone 6 / 6 Plus
+;;=> OnePlus 5
 
 [:device :platform]
-;;=> BlackBerry
+;;=> Windows 8
 
 [:device :serial]
-;;=> CdNevWfqDPQw4iJgUhtyCqwCggV12T
+;;=> tL&^J@24CVF=zP46Lxixk`_a4=o6c5
 
 [:dnd :alignments]
-;;=> Neutral Good
+;;=> Chaotic Good
 
 [:dnd :backgrounds]
-;;=> Archaeologist
+;;=> Anthropologist
 
 [:dnd :cities]
-;;=> Trailsend
+;;=> Earthfast
 
 [:dnd :klasses]
-;;=> Sorcerer
+;;=> Ranger
 
 [:dnd :languages]
-;;=> Common
+;;=> Undercommon
 
 [:dnd :melee-weapons]
-;;=> Flail
+;;=> Greatsword
 
 [:dnd :monsters]
-;;=> Sprite
+;;=> Rust Monster
 
 [:dnd :races]
-;;=> Dragonborn
+;;=> Half-Elf
 
 [:dnd :ranged-weapons]
-;;=> Longbow
+;;=> Sling
 
 [:doraemon :characters]
-;;=> Nobirou Nobi
+;;=> Tamao Kataoka
 
 [:doraemon :gadgets]
-;;=> Bug Off
+;;=> Concentrated Food
 
 [:doraemon :locations]
-;;=> Sewashi's House
+;;=> Robot Academy
 
 [:dr-who :actors]
-;;=> Peter Capaldi
+;;=> Patrick Troughton
 
 [:dr-who :catch-phrases]
-;;=> I’m sorry. I’m so sorry.
+;;=> Would you care for a jelly baby?
 
 [:dr-who :character]
 ;;=> Rose Tyler
 
 [:dr-who :quotes]
-;;=> Bunk beds are cool, a bed with a ladder, you can't beat that!
+;;=> You don't want to take over the universe. You wouldn't know what to do with it beyond shout at it.
 
 [:dr-who :species]
-;;=> Validium
+;;=> Chimeron
 
 [:dr-who :the-doctors]
-;;=> Tenth Doctor
+;;=> Fourth Doctor
 
 [:dr-who :villains]
-;;=> Animus
+;;=> Davros
 
 [:dragon-ball :characters]
-;;=> Li Shenlong
+;;=> Garlic Jr
 
 [:dragon-ball :planets]
-;;=> Kabocha
+;;=> Frieza 3448
 
 [:dragon-ball :races]
-;;=> Shamoian
+;;=> Shirt
 
 [:driving-licence :usa :alabama]
-;;=> 343755
+;;=> 84788392
 
 [:driving-licence :usa :alaska]
-;;=> 943771
+;;=> 644809
 
 [:driving-licence :usa :arizona]
-;;=> 695021458
+;;=> 566471406
 
 [:driving-licence :usa :arkansas]
-;;=> 706640214
+;;=> 35981340
 
 [:driving-licence :usa :california]
-;;=> ?9036902
+;;=> ?6889480
 
 [:driving-licence :usa :colorado]
-;;=> ?991687
+;;=> ?018904
 
 [:driving-licence :usa :connecticut]
-;;=> 203647156
+;;=> 446415589
 
 [:driving-licence :usa :delaware]
-;;=> 946565
+;;=> 477761
 
 [:driving-licence :usa :district-of-columbia]
-;;=> 0968594
+;;=> 0803798
 
 [:driving-licence :usa :florida]
-;;=> ?940567644068
+;;=> ?669657396227
 
 [:driving-licence :usa :georgia]
-;;=> 2229190
+;;=> 530755819
 
 [:driving-licence :usa :hawaii]
-;;=> 643100346
+;;=> ?66854377
 
 [:driving-licence :usa :idaho]
-;;=> ??080741
+;;=> ??190905
 
 [:driving-licence :usa :illinois]
-;;=> ?048247281560
+;;=> ?19997329847
 
 [:driving-licence :usa :indiana]
-;;=> 6562763957
+;;=> 235309081
 
 [:driving-licence :usa :iowa]
-;;=> 644??8593
+;;=> 993??1769
 
 [:driving-licence :usa :kansas]
-;;=> 983292024
+;;=> ?3?7?
 
 [:driving-licence :usa :kentucky]
-;;=> 131193278
+;;=> ?790758635
 
 [:driving-licence :usa :louisiana]
-;;=> 32400700
+;;=> 063362663
 
 [:driving-licence :usa :maine]
-;;=> 27988605
+;;=> 87474828
 
 [:driving-licence :usa :maryland]
-;;=> ?146561641328
+;;=> ?275600612871
 
 [:driving-licence :usa :massachusetts]
-;;=> 311077453
+;;=> 440681080
 
 [:driving-licence :usa :michigan]
-;;=> ?112950695479
+;;=> ?6596171690
 
 [:driving-licence :usa :minnesota]
-;;=> ?541670896246
+;;=> ?710477823006
 
 [:driving-licence :usa :mississippi]
-;;=> 767586066
+;;=> 123927925
 
 [:driving-licence :usa :missouri]
-;;=> ?617026R
+;;=> ?979130817
 
 [:driving-licence :usa :montana]
-;;=> 38610559510551
+;;=> ?10052047
 
 [:driving-licence :usa :nebraska]
-;;=> ?0168912
+;;=> ?45246154
 
 [:driving-licence :usa :nevada]
-;;=> 880935202735
+;;=> X89431527
 
 [:driving-licence :usa :new-hampshire]
-;;=> 68???03340
+;;=> 80???45505
 
 [:driving-licence :usa :new-jersey]
-;;=> ?44832146182041
+;;=> ?76071928625837
 
 [:driving-licence :usa :new-mexico]
-;;=> 70127301
+;;=> 62240985
 
 [:driving-licence :usa :new-york]
-;;=> 46319382
+;;=> 0863295687717167
 
 [:driving-licence :usa :north-carolina]
-;;=> 805647850020
+;;=> 7372195646
 
 [:driving-licence :usa :north-dakota]
-;;=> ???655706
+;;=> 015543631
 
 [:driving-licence :usa :ohio]
-;;=> 07267250
+;;=> ??5026545
 
 [:driving-licence :usa :oklahoma]
-;;=> 070192115
+;;=> ?812620197
 
 [:driving-licence :usa :oregon]
-;;=> 14564416
+;;=> 38004364
 
 [:driving-licence :usa :pennsylvania]
-;;=> 75635158
+;;=> 80474337
 
 [:driving-licence :usa :rhode-island]
-;;=> ?973410
+;;=> ?493120
 
 [:driving-licence :usa :south-carolina]
-;;=> 9553570375
+;;=> 32281629645
 
 [:driving-licence :usa :south-dakota]
-;;=> 588807897938
+;;=> 039408754
 
 [:driving-licence :usa :tennessee]
-;;=> 8004131
+;;=> 3343371
 
 [:driving-licence :usa :texas]
-;;=> 58088622
+;;=> 75156677
 
 [:driving-licence :usa :utah]
-;;=> 027319811
+;;=> 8881933184
 
 [:driving-licence :usa :vermont]
-;;=> 03482469
+;;=> 61035912
 
 [:driving-licence :usa :virginia]
-;;=> 782818114
+;;=> ?045380347
 
 [:driving-licence :usa :washington]
-;;=> ?????????039
+;;=> ???????????1
 
 [:driving-licence :usa :west-virginia]
-;;=> 2602796
+;;=> 5255674
 
 [:driving-licence :usa :wisconsin]
-;;=> ?1351070312787
+;;=> ?7120787183362
 
 [:driving-licence :usa :wyoming]
-;;=> 218950202
+;;=> 907188027
 
 [:drone :battery-capacity]
-;;=> 2174 mAh
+;;=> 3904 mAh
 
 [:drone :battery-type]
-;;=> LiPo 3S
+;;=> Li-Polymer
 
 [:drone :battery-voltage]
-;;=> 62.5V
+;;=> 39.7V
 
 [:drone :battery-weight]
-;;=> 644 g
+;;=> 067 g
 
 [:drone :charging-temperature]
-;;=> 50°-270°F
+;;=> 80°-275°F
 
 [:drone :flight-time]
-;;=> 13 min
+;;=> 88 min
 
 [:drone :iso]
-;;=> 100-3200
+;;=> 100-6400
 
 [:drone :max-altitude]
-;;=> 2987 m
+;;=> 0842 m
 
 [:drone :max-angular-velocity]
-;;=> 32°/s
+;;=> 18°/s
 
 [:drone :max-ascent-speed]
-;;=> 6 m/s
+;;=> 3 m/s
 
 [:drone :max-charging-power]
-;;=> 67W
+;;=> 19W
 
 [:drone :max-descent-speed]
-;;=> 0 m/s
+;;=> 2 m/s
 
 [:drone :max-flight-distance]
-;;=> 9048 m
+;;=> 3058 m
 
 [:drone :max-resolution]
-;;=> 40MP
+;;=> 09MP
 
 [:drone :max-shutter-speed]
-;;=> 2
+;;=> 60
 
 [:drone :max-speed]
-;;=> 04 m/s
+;;=> 43 m/s
 
 [:drone :max-tilt-angle]
-;;=> 10°
+;;=> 71°
 
 [:drone :max-wind-resistance]
-;;=> 86.1 m/s
+;;=> 66.9 m/s
 
 [:drone :min-shutter-speed]
-;;=> 1/8000
+;;=> 1/2000
 
 [:drone :name]
-;;=> DJI Mavic 2 Pro
+;;=> Autel Evo II 8K
 
 [:drone :operating-temperature]
-;;=> 38°-495°F
+;;=> 65°-608°F
 
 [:drone :photo-format]
-;;=> JPEG
+;;=> TIF
 
 [:drone :shutter-speed-units]
 ;;=> s
 
 [:drone :video-format]
-;;=> MP4
+;;=> MOV
 
 [:drone :weight]
-;;=> 516 g
+;;=> 847 g
 
 [:dumb-and-dumber :actors]
-;;=> Harland Williams
+;;=> Jeff Daniels
 
 [:dumb-and-dumber :characters]
-;;=> Harry Dunne
+;;=> Mary Swanson
 
 [:dumb-and-dumber :quotes]
-;;=> Harry: You sold my dead bird to a blind kid? Lloyd! Petey didn't even have a head! Harry, I took care of it...
+;;=> I'll bet you twenty bucks I can get you gambling before the end of the day!
 
 [:dune :characters]
-;;=> Jamis
+;;=> Chani
 
 [:dune :cities]
-;;=> Ysai
+;;=> Thalidei
 
 [:dune :planets]
-;;=> Caladan
+;;=> Ix
 
 [:dune :quotes :alia]
 ;;=> The Guild... they're fighting me in the mental vaults. They're behind everything. They fear the one who will come, who will know more, who will see more. The Guild is behind everything. It's not finished yet. I'm not formed.
 
 [:dune :quotes :baron-harkonnen]
-;;=> One must always keep the tools of statecraft sharp and ready. Power and fear - sharp and ready.
+;;=> I will have Arrakis back for myself! He who controls the Spice controls the universe and what Piter did not tell you is we have control of someone who is very close, very close, to Duke Leto! This person, this traitor, will be worth more to us than ten legions of Sardaukar!
 
 [:dune :quotes :duncan]
-;;=> When your opponent fears you, then's the moment when you give the fear its own rein, give it the time to work on him. Let it become terror. The terrified man fights himself. Eventually, he attacks in desperation. That is the most dangerous moment, but the terrified man can be trusted usually to make a fatal mistake.
+;;=> My lord, I suspect an incredible secret has been kept on this planet: that the Fremen exist in vast numbers - vast. And it is they who control Arrakis.
 
 [:dune :quotes :emperor]
 ;;=> Bring in that floating fat man, the Baron!
 
 [:dune :quotes :guild-navigator]
-;;=> The Bene Gesserit Witch must leave.
+;;=> Remedy this situation, restore spice production, or you will live out your life in a pain amplifier!
 
 [:dune :quotes :gurney]
-;;=> In shield fighting, one moves fast on defense, slow on attack. Attack has the sole purpose of tricking the opponent into a misstep, setting him up for the attack sinister. The shield turns the fast blow, admits the slow kindjal!
+;;=> One enemy at a time.
 
 [:dune :quotes :irulan]
-;;=> To attempt an understanding of Muad'Dib without understanding his mortal enemies, the Harkonnens, is to attempt seeing Truth without knowing Falsehood. It is the attempt to see the Light without knowing Darkness. It cannot be.
+;;=> A beginning is the time for taking the most delicate care that the balances are correct.
 
 [:dune :quotes :jessica]
-;;=> Motivating people, forcing them to your will, gives you a cynical attitude towards humanity. It degrades everything it touches.
+;;=> What delicious abandon in the sleep of the child. Where do we lose it?
 
 [:dune :quotes :leto]
-;;=> On Caladan, we ruled with sea and air power. Here, we must scrabble for desert power. This is your inheritance, Paul.
+;;=> I must rule with eye and claw — as the hawk among lesser birds.
 
 [:dune :quotes :liet-kynes]
-;;=> He cares more about his men than the Spice. I have to admit, against my better judgement, I like this Duke.
+;;=> He shall know your ways as if born to them.
 
 [:dune :quotes :mapes]
 ;;=> Before I do your bidding, manling, I must cleanse the way between us. You've put a water burden on me that I'm not sure I care to support. But we Fremen pay our debts
 
 [:dune :quotes :mohiam]
-;;=> Hope clouds observation.
+;;=> You, Paul Atreides, descendant of kings, son of a Duke, you must learn to rule. It's something none of your ancestors learned.
 
 [:dune :quotes :pardot-kynes]
 ;;=> The highest function of ecology is understanding consequences.
 
 [:dune :quotes :paul]
-;;=> Try looking into that place where you dare not look! You'll find me there, staring out at you!
+;;=> They tried and failed, all of them?
 
 [:dune :quotes :piter]
 ;;=> Vendetta, he says, using the ancient tongue. The art of kanly is still alive in the Universe. He does not wish to meet or speak with you.
@@ -2955,952 +3018,955 @@
 ;;=> To save one from a mistake is a gift of paradise.
 
 [:dune :quotes :thufir]
-;;=> Repression makes a religion flourish.
+;;=> It's easier to be terrified by an enemy you admire.
 
 [:dune :quotes :yueh]
-;;=> But attack can take strange forms. And you will remember the tooth. The tooth. Duke Leto Atreides. You will remember the tooth.
+;;=> Forgive me, my Lady! My thoughts were far away… I … did not mean to be familiar.
 
 [:dune :sayings :bene-gesserit]
-;;=> I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.
+;;=> The mind can go either direction under stress — toward positive or toward negative: on or off. Think of it as a spectrum whose extremes are unconsciousness at the negative end and hyperconsciousness at the positive end. The way the mind will lean under stress is strongly influenced by training.
 
 [:dune :sayings :fremen]
-;;=> Truth suffers from too much analysis.
+;;=> The wise animal blends into its surroundings.
 
 [:dune :sayings :mentat]
 ;;=> It is by will alone I set my mind in motion. It is by the juice of Sapho that thoughts acquire speed, the lips acquire stains. The stains become a warning.
 
 [:dune :sayings :muaddib]
-;;=> There is probably no more terrible instance of enlightenment than the one in which you discover your father is a man — with human flesh.
+;;=> Deep in the human unconscious is a pervasive need for a logical universe that makes sense. But the real universe is always one step beyond logic.
 
 [:dune :sayings :orange-catholic-bible]
-;;=> Knowledge is pitiless.
+;;=> From water does all life begin.
 
 [:dune :titles]
-;;=> Count
+;;=> Padishah Emperor
 
 [:educator :campus]
-;;=> Iceborough Campus
+;;=> Falconholt Campus
 
 [:educator :course-name]
-;;=> Computer Science 277
+;;=> Commerce 149
 
 [:educator :degree]
-;;=> Bachelor of Teaching
+;;=> Bachelor of Health Science
 
 [:educator :primary-school]
-;;=> Ironston Primary School
+;;=> Mallowpond Elementary School
 
 [:educator :primary]
-;;=> Primary School
+;;=> Elementary School
 
 [:educator :school-name]
-;;=> Clearcourt
+;;=> Marblewald
 
 [:educator :secondary-school]
-;;=> Icelyn High
+;;=> Lakeacre Secondary College
 
 [:educator :secondary]
-;;=> Secondary College
+;;=> High School
 
 [:educator :subject]
-;;=> Business
+;;=> Arts
 
 [:educator :tertiary :degree]
-;;=> {:course-number 136, :type Master of}
+;;=> {:course-number 433, :type Bachelor of}
 
 [:educator :tertiary :university-type]
 ;;=> University
 
 [:educator :university]
-;;=> Brookville College
+;;=> Iceborough College
 
 [:electrical-components :active]
-;;=> Diode
+;;=> Fuel Cell
 
 [:electrical-components :electromechanical]
-;;=> Fuse
+;;=> crystal
 
 [:electrical-components :passive]
-;;=> Inductor
+;;=> Speaker
 
 [:emotion :adjective]
-;;=> witty
+;;=> peaceful
 
 [:emotion :noun]
-;;=> amusement
+;;=> insult
 
 [:esport :events]
-;;=> ESL Cologne
+;;=> MLG Meadowlands
 
 [:esport :games]
-;;=> PUBG
+;;=> League of Legends
 
 [:esport :leagues]
-;;=> Starladder
+;;=> IEM
 
 [:esport :players]
-;;=> Seagull
+;;=> Grubby
 
 [:esport :teams]
-;;=> Ninjas in Pijamas
+;;=> OpTic Gaming
 
 [:family-guy :character]
-;;=> Barabara Pewterschmidt
+;;=> Mayor Adam West
 
 [:family-guy :location]
-;;=> Goldman's Pharmacy
+;;=> Drunken Clam
 
 [:family-guy :quote]
-;;=> I am so not competitive. In fact, I am the least non-competitive. So I win.
+;;=> Isn’t ‘bribe’ just another word for ‘love’?
 
 [:file :extension]
-;;=> json
+;;=> flac
 
 [:file :mime-type]
-;;=> audio/basic
+;;=> application/rss+xml
 
 [:final-space :characters]
-;;=> Mooncake
+;;=> Bolo
 
 [:final-space :quotes]
 ;;=> Let's get wild, how about you buy me a drink
 
 [:final-space :vehicles]
-;;=> Star Chaser
+;;=> Crimson Light
 
 [:finance :credit-card :american-express]
-;;=> /3721-088559-5929L/
+;;=> /3737-148479-4133L/
 
 [:finance :credit-card :dankort]
-;;=> /5019-9883-8533-873L/
+;;=> /5019-5636-9751-410L/
 
 [:finance :credit-card :diners-club]
-;;=> /3680-684555-813L/
+;;=> /30[0-5]4-307738-929L/
 
 [:finance :credit-card :discover]
-;;=> /6011-3404-1808-920L/
+;;=> /6011-0098-9133-914L/
 
 [:finance :credit-card :forbrugsforeningen]
-;;=> /6007-2289-6513-819L/
+;;=> /6007-2291-0998-628L/
 
 [:finance :credit-card :jcb]
-;;=> /3529-3845-0765-824L/
-
-[:finance :credit-card :laser]
-;;=> /630436531419566L/
+;;=> /3528-5126-5150-970L/
 
 [:finance :credit-card :mastercard]
-;;=> /5[1-5]27-9774-4538-830L/
+;;=> /5[1-5]83-1915-4539-557L/
 
 [:finance :credit-card :solo]
-;;=> /6767-5730-3326-2941-26L/
+;;=> /6767-7755-3316-9448-94L/
 
 [:finance :credit-card :switch]
-;;=> /6759-3016-0597-204L/
+;;=> /6759-2151-4184-320L/
 
 [:finance :credit-card :visa]
-;;=> /437837862612L/
+;;=> /4655-8352-2579-381L/
 
 [:finance :stock-market]
-;;=> HKEX
+;;=> NSE-INDIA
 
 [:finance :ticker :nasdaq]
-;;=> QCOM
+;;=> CHTR
 
 [:finance :ticker :nyse]
-;;=> CVX
+;;=> JNJ
 
 [:finance :vat-number :ar]
-;;=> AR69705864049
+;;=> AR50340938836
 
 [:finance :vat-number :at]
-;;=> ATU96860235
+;;=> ATU01603996
 
 [:finance :vat-number :au]
-;;=> AU43431298530
+;;=> AU61561675996
 
 [:finance :vat-number :be]
-;;=> BE0274401810
+;;=> BE0711311206
 
 [:finance :vat-number :bg]
-;;=> BG9057122655
+;;=> BG740755982
 
 [:finance :vat-number :br]
-;;=> BR82.378.084/0273-88
+;;=> BR57.255.663/2594-54
 
 [:finance :vat-number :by]
-;;=> УНП 126672295
+;;=> УНП 352876529
 
 [:finance :vat-number :ch]
-;;=> CH997854
+;;=> CH675336
 
 [:finance :vat-number :cl]
-;;=> CL94442404-5
+;;=> CL99522538-7
 
 [:finance :vat-number :cz]
-;;=> CZ06006685
+;;=> CZ950376142
 
 [:finance :vat-number :de]
-;;=> DE751702491
+;;=> DE104806959
 
 [:finance :vat-number :dk]
-;;=> DK50 57 88 75
+;;=> DK51 81 38 10
 
 [:finance :vat-number :ec]
-;;=> EC4212436616013
+;;=> EC2717914348392
 
 [:finance :vat-number :ee]
-;;=> EE869509668
+;;=> EE459194156
 
 [:finance :vat-number :fi]
-;;=> FI41193240
+;;=> FI46406054
 
 [:finance :vat-number :gb]
-;;=> GB124 0697 55 925
+;;=> GB474 6419 12
 
 [:finance :vat-number :gr]
-;;=> EL953313054
+;;=> EL396625407
 
 [:finance :vat-number :hr]
-;;=> HR040 706 716 59
+;;=> HR531 987 587 15
 
 [:finance :vat-number :hu]
-;;=> HU50181758
+;;=> HU25958989
 
 [:finance :vat-number :it]
-;;=> IT2438113246
+;;=> IT4692114328
 
 [:finance :vat-number :lt]
-;;=> LT551696488
+;;=> LT984668229415
 
 [:finance :vat-number :lu]
-;;=> LU59350247
+;;=> LU01600057
 
 [:finance :vat-number :lv]
-;;=> LV62214450407
+;;=> LV86362341377
 
 [:finance :vat-number :mt]
-;;=> MT90635491
+;;=> MT03371915
 
 [:finance :vat-number :mx]
-;;=> MX3916 443613 657
+;;=> MX5113 662312 758
 
 [:finance :vat-number :no]
-;;=> NO753943896
+;;=> NO090416641
 
 [:finance :vat-number :ph]
-;;=> PH796 633 288 962
+;;=> PH616 888 736 350
 
 [:finance :vat-number :pl]
-;;=> PL2275110297
+;;=> PL1053474597
 
 [:finance :vat-number :pt]
-;;=> PT139982672
+;;=> PT844989076
 
 [:finance :vat-number :ro]
-;;=> RO1463854680
+;;=> RO5526841093
 
 [:finance :vat-number :ru]
-;;=> RU782834680199
+;;=> RU227334392340
 
 [:finance :vat-number :se]
-;;=> SE383630380401
+;;=> SE077798565301
 
 [:finance :vat-number :si]
-;;=> SI16770896
+;;=> SI94471771
 
 [:finance :vat-number :sk]
-;;=> SK7332255043
+;;=> SK4490455839
 
 [:finance :vat-number :sm]
-;;=> SM10765
+;;=> SM93352
 
 [:finance :vat-number :ua]
-;;=> UA5048123268
+;;=> UA7821641279
 
 [:finance :vat-number :za]
-;;=> ZA65205764208
+;;=> ZA3310899944
 
 [:fma-brotherhood :characters]
-;;=> Nina
+;;=> Olivier Mira Armstrong
 
 [:fma-brotherhood :cities]
-;;=> Central City
+;;=> Youswell
 
 [:fma-brotherhood :countries]
-;;=> Xerxes
+;;=> Creta
 
 [:food :descriptions]
-;;=> Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.
+;;=> Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream.
 
 [:food :dish]
-;;=> Mushroom Risotto
+;;=> Fish and Chips
 
 [:food :ethnic-category]
-;;=> Korean
+;;=> Turkish
 
 [:food :fruits]
-;;=> Pomegranate
+;;=> Starfruit
 
 [:food :ingredients]
-;;=> Kangaroo
+;;=> Flaxseed Oil
 
 [:food :measurement-sizes]
-;;=> 3
+;;=> 1/4
 
 [:food :measurements]
-;;=> pint
+;;=> cup
 
 [:food :metric-measurements]
-;;=> milliliter
+;;=> deciliter
 
 [:food :spices]
-;;=> Achiote Seed
+;;=> Mace Whole
 
 [:food :sushi]
-;;=> Horned turban
+;;=> White trevally
 
 [:food :vegetables]
-;;=> Onion
+;;=> Dried Chinese Broccoli
 
 [:football :coaches]
-;;=> Mauricio Pochettino
+;;=> Ernesto Valverde
 
 [:football :competitions]
-;;=> Primeira Liga
+;;=> Nations Cup
 
 [:football :players]
-;;=> Juan Mata
+;;=> Manuel Neuer
 
 [:football :positions]
-;;=> Second Striker
+;;=> Left Midfielder
 
 [:football :teams]
-;;=> AC Milan
+;;=> Arsenal
 
 [:friends :characters]
-;;=> Estelle Leonard
+;;=> Rob Donnan
 
 [:friends :locations]
-;;=> Celestino Custom Tailor
+;;=> Ralph Lauren
 
 [:friends :quotes]
-;;=> Fine judge all you want but... married a lesbian, left a man at the altar, fell in love with a gay ice dancer, threw a girl’s wooden leg in the fire, LIVE IN A BOX.
+;;=> No. Interestingly enough, her leaf blower picked up.
 
 [:funny-name :name]
-;;=> Adam Baum
+;;=> Bill Overdew
 
 [:futurama :characters]
-;;=> Turanga Leela
+;;=> Professor Hubert J. Farnsworth
 
 [:futurama :hermes-catchphrases]
-;;=> Sweet giant anteater of Santa Anita!
+;;=> Sweet topology of cosmology!
 
 [:futurama :locations]
-;;=> Cineplex 14
+;;=> Robonia
 
 [:futurama :quotes]
-;;=> A fancy dress gala? I'll wear my formal shell.
+;;=> Bite my shiny metal ass.
 
 [:game :genre]
-;;=> Roguelike
+;;=> Massively multiplayer online
 
 [:game :platform]
-;;=> Sega Genesis
+;;=> PlayStation 3
 
 [:game :title]
-;;=> Crysis
+;;=> WarioWare: Touched!
 
 [:game-of-thrones :characters]
-;;=> Cregan Karstark
+;;=> Matthos Seaworth
 
 [:game-of-thrones :cities]
-;;=> Tyria
+;;=> Elyria
 
 [:game-of-thrones :dragons]
-;;=> Shrykos
+;;=> Valryon
 
 [:game-of-thrones :houses]
-;;=> Plumm
+;;=> Woolfield
 
 [:game-of-thrones :quotes]
-;;=> When you play a game of thrones you win or you die.
+;;=> When the snows fall and the white winds blow, the lone wolf dies but the pack survives.
 
 [:games :clash-of-clans :defensive-buildings]
-;;=> Eagle Artillery
+;;=> Guard Post
 
 [:games :clash-of-clans :ranks]
-;;=> Champion II
+;;=> Legend
 
 [:games :clash-of-clans :troops]
-;;=> Archer
+;;=> Ice Golem
 
 [:games :control :altered-item]
-;;=> Red Light
+;;=> ActionMaxx Camera
 
 [:games :control :altered-world-event]
-;;=> Sterling, Colorado
+;;=> Butte, Montana
 
 [:games :control :character]
-;;=> Zachariah Trench
+;;=> Alan Wake
 
 [:games :control :hiss]
-;;=> We wait in the stains.
+;;=> After the song, time for applause.
 
 [:games :control :location]
-;;=> Hypnosis Lab
+;;=> Research Sector
 
 [:games :control :object-of-power]
-;;=> Floppy Disk
+;;=> Home Safe
 
 [:games :control :quote]
-;;=> Nothing, but a pale imitation
+;;=> Shawshank Redemption! That's the movie.
 
 [:games :control :the-board]
-;;=> < We like/tolerate you very much >
+;;=> < Do not believe/get hype >
 
 [:games :dota :abaddon]
 ;;=> {:quote You have called death upon yourself.}
 
 [:games :dota :alchemist]
-;;=> {:quote Better living through alchemy!}
+;;=> {:quote Tell the ogre you're sorry.}
 
 [:games :dota :axe]
-;;=> {:quote What happened? Axe happened!}
+;;=> {:quote No business but war. No family but death. No mercy but the grave!}
 
 [:games :dota :beastmaster]
-;;=> {:quote I'm a natural disaster.}
+;;=> {:quote A death not fit for man or beast.}
 
 [:games :dota :brewmaster]
 ;;=> {:quote Let's raise a cup before battle!}
 
 [:games :dota :bristleback]
-;;=> {:quote A good bashing, never hurt nobody.}
+;;=> {:quote Time to mash some faces, I'd say.}
 
 [:games :dota :building]
-;;=> Effigy
+;;=> Tower
 
 [:games :dota :centaur]
-;;=> {:quote I don't always wear a saddlebag, but when I do, I put this one in it.}
+;;=> {:quote Hurts you more than it hurts me.}
 
 [:games :dota :chaos-knight]
-;;=> {:quote Like the heads of my enemies, this one is in the bag.}
+;;=> {:quote The light shall be blackened, and chaos shall reign.}
 
 [:games :dota :clockwerk]
-;;=> {:quote What time is it? It's killing time.}
+;;=> {:quote I've a mind like a steel trap, and the physique to go with it!}
 
 [:games :dota :doom]
-;;=> {:quote I am the midnight of your soul.}
+;;=> {:quote Speak of me, and I shall appear. Face me and face the furnace!}
 
 [:games :dota :dragon-knight]
-;;=> {:quote Who calls the Dragon Knight?}
+;;=> {:quote Good night, Sven. I mean bad knight. [Talking to Sven]}
 
 [:games :dota :earth-spirit]
-;;=> {:quote Body is flesh, but spirit immortal.}
+;;=> {:quote Knowledge is golden.}
 
 [:games :dota :earthshaker]
-;;=> {:quote Time to shake things up and see where they settle.}
+;;=> {:quote The earth moves under my feet!}
 
 [:games :dota :elder-titan]
-;;=> {:quote I broke the world, did you think I could not break you?}
+;;=> {:quote The battle is joined, like the pieces of a broken world.}
 
 [:games :dota :hero]
 ;;=> Chaos Knight
 
 [:games :dota :huskar]
-;;=> {:quote The gods grant me life, nor shall I waste it.}
+;;=> {:quote You gave all you could give but it was not enough.}
 
 [:games :dota :io]
 ;;=> {:quote Really?! If you play DotA, you know IO can't talk. ¬¬'}
 
 [:games :dota :item]
-;;=> Scythe of Vyse
+;;=> Medallion of Courage
 
 [:games :dota :kunkka]
-;;=> {:quote That's a lot for an empty bottle. [Acquiring Bottle]}
+;;=> {:quote Damn, I thought this bottle would have rum in it. [Acquiring Bottle]}
 
 [:games :dota :legion-commander]
 ;;=> {:quote It's the smells of battle that stay with you long after they've ended. In Stonehall it was blood and sulfur, smoke, and rot and fear…}
 
 [:games :dota :lifestealer]
-;;=> {:quote Wait until I get my claws in you!}
+;;=> {:quote Even a thief must sometimes pay the asking price. [buying an item]}
 
 [:games :dota :lycan]
-;;=> {:quote A peaceful man is but a patient wolf.}
+;;=> {:quote A wolf in man's clothing.}
 
 [:games :dota :magnus]
-;;=> {:quote Compared to my horn, all precious items are cheap.}
+;;=> {:quote My horn is sharp, my pike is sharper still.}
 
 [:games :dota :meepo]
-;;=> {:quote You punched out all of my blood!}
+;;=> {:quote One paw in front of the other!}
 
 [:games :dota :night-stalker]
 ;;=> {:quote I feed the darkness and the darkness feeds me.}
 
 [:games :dota :omniknight]
-;;=> {:quote Let this be the last crusade. Let me find peace.}
+;;=> {:quote Knowledge is peace.}
 
 [:games :dota :phoenix]
 ;;=> {:quote Really?! If you play DotA, you know Phoenix can't talk. ¬¬'}
 
 [:games :dota :player]
-;;=> DeMoN
+;;=> Fenrir
 
 [:games :dota :pudge]
-;;=> {:quote Only trouble with carrion…an hour after eating you're hungry again!}
+;;=> {:quote Come to Pudge!}
 
 [:games :dota :sand-king]
-;;=> {:quote True horror is a verdant garden…}
+;;=> {:quote King of the Desert.}
 
 [:games :dota :slardar]
-;;=> {:quote Too bright up here and far too light. I long for the pressures of the deep, and the subtle luminosities of the sunken world.}
+;;=> {:quote Guardian of the deeps.}
 
 [:games :dota :spirit-breaker]
-;;=> {:quote Attack is the best defense.}
+;;=> {:quote I'll break their spirits and their backs.}
 
 [:games :dota :sven]
 ;;=> {:quote I will crush my foe as I crushed the Vigil Knights.}
 
 [:games :dota :team]
-;;=> Alliance
+;;=> Sun Gaming
 
 [:games :dota :tidehunter]
-;;=> {:quote Time and Tidehunter wait for no man.}
+;;=> {:quote I'm hungry enough to eat a manta ray.}
 
 [:games :dota :timbersaw]
-;;=> {:quote Nobody takes me seriously.}
+;;=> {:quote I cut things. It's what I do. What else would I do?}
 
 [:games :dota :tiny]
-;;=> {:quote Sticks and stones will break their bones!}
+;;=> {:quote Why do they call it the Mineral Kingdom? We don't even have a king.}
 
 [:games :dota :treant-protector]
-;;=> {:quote Nature is not always kind.}
+;;=> {:quote Trees can be ferocious if provoked.}
 
 [:games :dota :tusk]
-;;=> {:quote Who's ready for a fight? The first hit is free! Anyone?}
+;;=> {:quote It's a great day to do some squat thrusts and lift a barrel of fish, is it not?}
 
 [:games :dota :underlord]
-;;=> {:quote The Abyss knows no mercy. It knows no light. It knows only fear and despair.}
+;;=> {:quote I rule the Abyssal Horde.}
 
 [:games :dota :undying]
 ;;=> {:quote I need to work out more, but… my arm keeps snapping off.}
 
 [:games :dota :wraith-king]
-;;=> {:quote Submit to the Wraith King's rule!}
+;;=> {:quote Purer than flesh, stronger than bone, imperishable is the essence of the wraith.}
 
 [:games :elder-scrolls :city]
-;;=> Ivarstead
+;;=> Windhelm
 
 [:games :elder-scrolls :creature]
-;;=> Slaughterfish
+;;=> Lurker
 
 [:games :elder-scrolls :dragon]
-;;=> Serpentine Dragon
+;;=> Ancient Dragon
 
 [:games :elder-scrolls :first-name]
-;;=> Vignar
+;;=> Nazir
 
 [:games :elder-scrolls :jewelry]
-;;=> Amulet of Julianos
+;;=> Ring of Instinct
 
 [:games :elder-scrolls :last-name]
-;;=> The Fleet
+;;=> Rarnis
 
 [:games :elder-scrolls :race]
-;;=> Argonian
+;;=> Khajiit
 
 [:games :elder-scrolls :region]
 ;;=> Black Marsh
 
 [:games :elder-scrolls :weapon]
-;;=> Steel War Axe
+;;=> Ebony Dagger
 
 [:games :fallout :characters]
-;;=> Jake
+;;=> Ian
 
 [:games :fallout :factions]
-;;=> Triggermen
+;;=> Nuka World Triumvirate
 
 [:games :fallout :locations]
-;;=> Nipton
+;;=> Capital Wasteland
 
 [:games :fallout :quotes]
-;;=> You stood up to Elder Maxson for me. I'll never forget that for as long as I live.
+;;=> I'm a synth. Synthetic man. All the parts, minus a few red blood cells.
 
 [:games :half-life :character]
-;;=> Father Grigori
+;;=> Adrian Shephard
 
 [:games :half-life :enemy]
-;;=> Gene Worm
+;;=> Overwatch Sniper
 
 [:games :half-life :location]
-;;=> White Forest
+;;=> Black Mesa East
 
 [:games :league-of-legends :champion]
-;;=> Talon
+;;=> Karthus
 
 [:games :league-of-legends :location]
-;;=> Noxus
+;;=> Freljord
 
 [:games :league-of-legends :masteries]
-;;=> Unyielding
+;;=> Stormraider's Surge
 
 [:games :league-of-legends :quote]
-;;=> A man, a woman and a yordle walk into the sun. They die! Because it burns them alive? heh heh heh heh
+;;=> That's gotta sting.
 
 [:games :league-of-legends :rank]
-;;=> Diamond III
+;;=> Platinum IV
 
 [:games :league-of-legends :summoner-spell]
-;;=> Cleanse
+;;=> Barrier
 
 [:games :minecraft :achievement]
-;;=> Hot tourist destination
+;;=> Freight Station
 
 [:games :minecraft :biome]
-;;=> Jungle Edge
+;;=> Tall Birch Forest
 
 [:games :minecraft :blocks]
-;;=> Black Wool
+;;=> Furnace
 
 [:games :minecraft :enchantment]
-;;=> Mending
+;;=> Efficiency
 
 [:games :minecraft :game-mode]
-;;=> Survival
+;;=> Spectator
 
 [:games :minecraft :items]
-;;=> Magenta Dye
+;;=> Golden Helmet
 
 [:games :minecraft :mobs]
-;;=> Magma Cube
+;;=> Chicken
 
 [:games :minecraft :status-effect]
-;;=> Wither
+;;=> Instant Health
 
 [:games :myst :ages]
-;;=> Eder Delin
+;;=> Direbo
 
 [:games :myst :characters]
-;;=> Gehn
+;;=> Achenar
 
 [:games :myst :creatures]
-;;=> Zeftyr
+;;=> ytrams
 
 [:games :myst :games]
-;;=> Myst IV: Revelation
+;;=> Myst
 
 [:games :myst :quotes]
-;;=> Atrus... what do you see?
+;;=> Bring me the red pages.
 
 [:games :overwatch :heroes]
-;;=> Pharah
+;;=> Baptiste
 
 [:games :overwatch :locations]
-;;=> Watchpoint: Gibraltar
+;;=> Lijiang Tower
 
 [:games :overwatch :quotes]
-;;=> My power grows stronger
+;;=> Catch phrase
 
 [:games :pokemon :locations]
-;;=> White Forest
+;;=> Lentimas Town
 
 [:games :pokemon :moves]
-;;=> Double Kick
+;;=> Comet Punch
 
 [:games :pokemon :names]
-;;=> Dragonite
+;;=> Machamp
 
 [:games :sonic-the-hedgehog :character]
-;;=> SCR-HD
+;;=> Silver the Hedgehog
 
 [:games :sonic-the-hedgehog :game]
-;;=> Sonic Advance
+;;=> Sonic the Hedgehog 4: Episode I
 
 [:games :sonic-the-hedgehog :zone]
-;;=> Sandopolis Zone
+;;=> Death Egg mk.II Zone
 
 [:games :street-fighter :characters]
-;;=> Rashid
+;;=> Makoto
 
 [:games :street-fighter :moves]
-;;=> Kishin Riki
+;;=> Psycho Trombe
 
 [:games :street-fighter :quotes]
-;;=> I'm afraid that fine roses are as rare as respectable fighters.
+;;=> I need to pick up a dog collar on the way back, I wonder which color is the best?
 
 [:games :street-fighter :stages]
-;;=> Inland Jungle
+;;=> Mishima Estate
 
 [:games :super-mario :characters]
-;;=> Diddy Kong
+;;=> Donkey Kong
 
 [:games :super-mario :games]
-;;=> Super Mario Kart
+;;=> Super Mario Maker
 
 [:games :super-mario :locations]
 ;;=> Kong City
 
 [:games :super-smash-bros :fighter]
-;;=> Fox
+;;=> Kazuya
 
 [:games :super-smash-bros :stage]
-;;=> Mario Circuit
+;;=> Reset Bomb Forest
 
 [:games :touhou :characters]
-;;=> Hina Kagiyama
+;;=> Rumia
 
 [:games :touhou :games]
-;;=> Undefined Fantastic Object
+;;=> Shoot the Bullet
 
 [:games :touhou :locations]
-;;=> Waterfall of Nine Heavens
+;;=> Underground Geyser Center
 
 [:games :touhou :songs]
-;;=> Extend Ash ~ Person of Hourai
+;;=> The Wheelchair's Future in Space
 
 [:games :touhou :spell-cards]
-;;=> Wolf Sign "Star Ring Pounce"
+;;=> Broadleaf Sign "Tanabata Star Festival"
 
 [:games :warhammer-fantasy :creatures]
-;;=> Unicorn
+;;=> Chaos Beastman
 
 [:games :warhammer-fantasy :factions]
-;;=> Dark Elves
+;;=> Lizardmen
 
 [:games :warhammer-fantasy :heros]
-;;=> W'soran
+;;=> Adohi-Tehga Lord of Tlaxtlan
 
 [:games :warhammer-fantasy :locations]
-;;=> Quatar
+;;=> Boiling Sea
 
 [:games :warhammer-fantasy :quotes]
-;;=> The Maw was born from the fire... The earth shook at its coming... The flames ate many tribes... To the mountains some fled...
+;;=> Yes-yes Warlord Krizk - for a treaty-pledge of just 200 Slaves, 12 claws of warptokens, a Breeder and certain alliances and pledges, one of our very-very finest Clan Moulder Rat Ogres can be yours...
 
 [:games :witcher :books]
-;;=> Time of Contempt
+;;=> Blood of Elves
 
 [:games :witcher :characters]
-;;=> Whoreson Junior
+;;=> Yennefer of Vengerberg
 
 [:games :witcher :locations]
-;;=> Malhoun
+;;=> Duén Canell
 
 [:games :witcher :monsters]
-;;=> Rock Troll
+;;=> Kikimore Worker
 
 [:games :witcher :potions]
-;;=> Swallow
+;;=> Anabolic steroids
 
 [:games :witcher :quotes]
-;;=> Write Your Will
+;;=> A true witcher should never abandon poultry in distress.
 
 [:games :witcher :schools]
-;;=> Cat
+;;=> Bear
 
 [:games :witcher :signs]
 ;;=> Igni
 
 [:games :witcher :witchers]
-;;=> Junod of Belhaven
+;;=> Letho of Gulet
 
 [:games :world-of-warcraft :class-names]
-;;=> Warrior
+;;=> Paladin
 
 [:games :world-of-warcraft :heros]
-;;=> Jaina Proudmoore
+;;=> Blackhand
 
 [:games :world-of-warcraft :quotes]
-;;=> Mind yourself.
+;;=> The reckoning is at hand!
 
 [:games :world-of-warcraft :races]
-;;=> Blood elf
+;;=> Kul Tiran
 
 [:games :zelda :characters]
-;;=> Toto Sah
+;;=> Pamela
 
 [:games :zelda :games]
-;;=> Four Swords
+;;=> Ocarina of Time
 
 [:games :zelda :items]
-;;=> Magical Shield
+;;=> Power Bracelet
 
 [:games :zelda :locations]
-;;=> Zelkoa Pond
+;;=> Nero Hill
 
 [:gender :binary-types]
-;;=> Male
+;;=> Female
 
 [:gender :short-binary-types]
 ;;=> f
 
 [:gender :types]
-;;=> Agender
+;;=> Bigender
 
 [:ghostbusters :actors]
-;;=> Ernie Hudson
+;;=> Sigourney Weaver
 
 [:ghostbusters :characters]
 ;;=> Dr. Peter Venkman
 
 [:ghostbusters :quotes]
-;;=> If I'm wrong, nothing happens! We go to jail - peacefully, quietly. We'll enjoy it! But if I'm *right*, and we *can* stop this thing... Lenny, you will have saved the lives of millions of registered voters.
+;;=> Hey, he pulls the wagon, I made the deals. You want a ride?
 
 [:grateful-dead :players]
-;;=> Bruce Hornsby
+;;=> Keith Godchaux
 
 [:grateful-dead :songs]
-;;=> Eyes of the World
+;;=> Ripple
 
 [:greek-philosophers :names]
-;;=> Plato
+;;=> Posidonius
 
 [:greek-philosophers :quotes]
-;;=> Beware the barrenness of a busy life.
+;;=> Control thy passions lest they take vengence on thee.
 
 [:hacker :abbreviation]
-;;=> THX
+;;=> SAS
 
 [:hacker :adjective]
-;;=> cross-platform
+;;=> multi-byte
 
 [:hacker :ingverb]
-;;=> compressing
+;;=> navigating
 
 [:hacker :noun]
-;;=> monitor
+;;=> sensor
 
 [:hacker :verb]
-;;=> index
+;;=> copy
 
 [:harry-potter :books]
-;;=> Harry Potter and the Sorcerer's Stone
+;;=> Harry Potter and the Prisoner of Azkaban
 
 [:harry-potter :characters]
-;;=> Nymphadora Tonks
+;;=> Seamus Finnigan
 
 [:harry-potter :houses]
-;;=> Horned Serpent
+;;=> Hufflepuff
 
 [:harry-potter :locations]
-;;=> The Burrow
+;;=> Zonko's Joke Shop
 
 [:harry-potter :quotes]
-;;=> Things we lose have a way of coming back to us in the end, if not always in the way we expect.
+;;=> Happiness can be found even in the darkest of times if only one remembers to turn on the light.
 
 [:harry-potter :spells]
-;;=> Expelliarmus
+;;=> Alohomora
 
 [:heroes :artifacts]
-;;=> Necklace of Ocean Guidance
+;;=> Pendant of Dispassion
 
 [:heroes :klasses]
-;;=> Beastmaster
+;;=> Wizard
 
 [:heroes :names]
-;;=> Ignissa
+;;=> Christian
 
 [:heroes :specialties]
-;;=> Archers
+;;=> Sorcery
 
 [:heroes-of-the-storm :battlegrounds]
 ;;=> Cursed Hollow
 
 [:heroes-of-the-storm :class-names]
-;;=> Tank
+;;=> Ranged Assassin
 
 [:heroes-of-the-storm :heroes]
-;;=> The Lost Vikings
+;;=> Imperius
 
 [:heroes-of-the-storm :quotes]
-;;=> Teammates. Much to improve. is a pretty good contender.
+;;=> We drink first blood!
 
 [:hey-arnold :characters]
-;;=> Tucker Wittenburg
+;;=> Oskar Kokoschka
 
 [:hey-arnold :locations]
-;;=> Roscoe's Funky Rags
+;;=> Antonio's Pizzeria
 
 [:hey-arnold :quotes]
-;;=> Hey, short man!
+;;=> Can you get your arm off my shoulder? As I've told you many times before, I don't like you like you, I just like you.
 
 [:hipster :words]
-;;=> food truck
+;;=> kitsch
 
 [:hitchhikers-guide-to-the-galaxy :characters]
-;;=> Wonko the Sane
+;;=> Garkbit
 
 [:hitchhikers-guide-to-the-galaxy :locations]
-;;=> Horsehead Nebula
+;;=> London
 
 [:hitchhikers-guide-to-the-galaxy :marvin-quote]
 ;;=> I wish you'd just tell me rather trying to engage my enthusiasm, because I haven't got one.
 
 [:hitchhikers-guide-to-the-galaxy :planets]
-;;=> Sqornshellous Zeta
+;;=> Lamuella
 
 [:hitchhikers-guide-to-the-galaxy :quotes]
-;;=> Will you open up the exit hatch, please, computer?
+;;=> Evolution? they said to themselves, Who needs it?
 
 [:hitchhikers-guide-to-the-galaxy :species]
-;;=> Babel Fish
+;;=> Cow
 
 [:hitchhikers-guide-to-the-galaxy :starships]
-;;=> Vogon Constructor Fleet
+;;=> Billion Year Bunker
 
 [:hobby :activity]
-;;=> Quilting
+;;=> Vehicle restoration
 
 [:house :furniture]
-;;=> bed
+;;=> bedside table
 
 [:house :rooms]
-;;=> master bedroom
+;;=> living room
 
 [:how-i-met-your-mother :catch-phrase]
-;;=> Patent Pending
+;;=> Classic Shmosby
 
 [:how-i-met-your-mother :character]
-;;=> Marvin Eriksen Sr.
+;;=> Barney Stinson
 
 [:how-i-met-your-mother :high-five]
-;;=> High Six
+;;=> Retraction Five
 
 [:how-i-met-your-mother :quote]
-;;=> Look, you can’t design your life like a building. It doesn’t work that way. You just have to live it… and it’ll design itself.
+;;=> Definitions are important.
 
 [:how-to-train-your-dragon :characters]
-;;=> Oswald the Agreeable
+;;=> Dagur the Deranged
 
 [:how-to-train-your-dragon :dragons]
-;;=> Meatlug
+;;=> Thunderfish
 
 [:how-to-train-your-dragon :locations]
-;;=> Hobblegrunt Island
+;;=> Zippleback Island
 
 [:id-number :invalid]
-;;=> 991-87-6762
+;;=> 000-09-4998
 
 [:industry-segments :industry]
-;;=> Financials
+;;=> Health Care
 
 [:industry-segments :sector]
-;;=> Oil & Gas Producers
+;;=> Aerospace & Defense
 
 [:industry-segments :sub-sector]
-;;=> Retail REITs
+;;=> Travel & Tourism
 
 [:industry-segments :super-sector]
-;;=> Utilities
+;;=> Media
+
+[:internet :domain-name]
+;;=> littel-littel.com
 
 [:internet :domain-suffix]
-;;=> info
+;;=> name
+
+[:internet :email]
+;;=> mikel@trantowinc.com
 
 [:internet :free-email]
 ;;=> gmail.com
 
 [:internet :slug]
-;;=> turkey
+;;=> authority
 
 [:internet :user-agent :aol]
 ;;=> Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.7; AOLBuild 4343.19; Windows NT 6.1; WOW64; Trident/5.0; FunWebProducts)
@@ -3923,104 +3989,110 @@
 [:internet :user-agent :safari]
 ;;=> Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
 
+[:internet :username]
+;;=> marshall.mcclure
+
 [:invoice :reference :check-digit-method]
 ;;=> method_731
 
 [:invoice :reference :pattern]
-;;=> \d{3,19}2
+;;=> \d{3,19}9
 
 [:job :education-level]
-;;=> Associates
+;;=> Bachelor
 
 [:job :employment-type]
-;;=> Temporary
+;;=> Contract
 
 [:job :field]
-;;=> Farming
+;;=> Marketing
 
 [:job :key-skills]
-;;=> Work under pressure
+;;=> Confidence
 
 [:job :position]
-;;=> Planner
+;;=> Architect
 
 [:job :seniority]
-;;=> Direct
+;;=> Human
 
 [:job :title]
-;;=> Administration Executive
+;;=> Global Designer
 
 [:kamen-rider :heisei :collectible-devices]
-;;=> Energy Item
+;;=> Ridewatch
 
 [:kamen-rider :heisei :kamen-riders]
-;;=> Kamen Rider Tiger
+;;=> Kamen Rider Blade
 
 [:kamen-rider :heisei :series]
-;;=> Kamen Rider Den-O
+;;=> Kamen Rider Drive
 
 [:kamen-rider :heisei :transformation-devices]
-;;=> Sasword Zecter
+;;=> J-Spirit
 
 [:kamen-rider :heisei :users]
-;;=> Ryusei Sakuta
+;;=> Banki
 
 [:kamen-rider :reiwa :collectible-devices]
-;;=> Vistamp
+;;=> Progrisekey
 
 [:kamen-rider :reiwa :kamen-riders]
-;;=> Kamen Rider Abaddon
+;;=> Kamen Rider MetsubouJinrai
 
 [:kamen-rider :reiwa :series]
-;;=> Kamen Rider Zero-One
+;;=> Kamen Rider Saber
 
 [:kamen-rider :reiwa :transformation-devices]
-;;=> Haouken Xross Saber
+;;=> Kougouken Saikou
 
 [:kamen-rider :reiwa :users]
-;;=> Touma Kamiyama
+;;=> Soreo Hiden
 
 [:kamen-rider :showa :kamen-riders]
-;;=> Riderman
+;;=> Kamen Rider Amazon
 
 [:kamen-rider :showa :series]
-;;=> Kamen Rider
+;;=> Kamen Rider ZX
 
 [:kamen-rider :showa :transformation-devices]
-;;=> Ridol
+;;=> Typhoon
 
 [:kamen-rider :showa :users]
-;;=> Hiroshi Tsukuba
+;;=> Kohtaro Minami
 
 [:kpop :boy-bands]
-;;=> December
+;;=> VIXX LR
 
 [:kpop :girl-groups]
-;;=> Miss S
+;;=> Hash Tag
 
 [:kpop :i-groups]
-;;=> Cool
+;;=> Diva
 
 [:kpop :ii-groups]
-;;=> Moon Child
+;;=> Girls' Generation
 
 [:kpop :iii-groups]
-;;=> AOA
+;;=> MVP
 
 [:kpop :solo]
-;;=> Yoo Young-jae
+;;=> Moon Ga-young
 
 [:lebowski :actors]
 ;;=> Peter Stormare
 
 [:lebowski :characters]
-;;=> Brandt
+;;=> Karl Hungus
 
 [:lebowski :quotes]
-;;=> This is a very complicated case Maude. You know, a lotta ins, a lotta outs, lotta what-have-yous.
+;;=> Hell, I can get you a toe by 3 o'clock this afternoon...with nail polish.
 
 [:lorem :multibyte]
-;;=> 159
+;;=> 164
+
+[:lorem :paragraph]
+;;=> Rem distinctio sit odit deserunt et inventore non ut aspernatur esse deleniti enim voluptas possimus. Aperiam quisquam perspiciatis sit rerum consequuntur natus esse. Quia veritatis necessitatibus ipsum molestiae eaque voluptatum autem doloremque excepturi quas minus tempore ad. Voluptate voluptatem exercitationem doloremque. Ex eum sint assumenda aut a maxime beatae ab deserunt corrupti deserunt. Sint quidem sed quo vero sit commodi quo distinctio minus.
 
 [:lorem :punctuation :period]
 ;;=> .
@@ -4031,14 +4103,17 @@
 [:lorem :punctuation :space]
 ;;=>  
 
+[:lorem :sentence]
+;;=> Suscipit sed repudiandae est eos maiores dolores ipsam odio sed nihil veritatis vitae consectetur quo.
+
 [:lorem :supplemental]
-;;=> synagoga
+;;=> alveus
 
 [:lorem :words]
-;;=> cumque
+;;=> nisi
 
 [:lovecraft :deity]
-;;=> Cthulhu
+;;=> Nyarlathotep
 
 [:lovecraft :fhtagn]
 ;;=> Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn
@@ -4047,145 +4122,145 @@
 ;;=> Innsmouth
 
 [:lovecraft :tome]
-;;=> Necronomicon
+;;=> Pnakotic Manuscripts
 
 [:lovecraft :words]
-;;=> daemoniac
+;;=> abnormal
 
 [:markdown :emphasis]
-;;=> _
+;;=> ~
 
 [:markdown :headers]
-;;=> 3
+;;=> 38
 
 [:marketing :buzzwords]
-;;=> data points
+;;=> bandwidth-constrained
 
 [:measurement :height]
 ;;=> inch
 
 [:measurement :length]
-;;=> mile
+;;=> foot
 
 [:measurement :metric-height]
-;;=> centimeter
+;;=> meter
 
 [:measurement :metric-length]
-;;=> kilometer
+;;=> hectometer
 
 [:measurement :metric-volume]
 ;;=> milliliter
 
 [:measurement :metric-weight]
-;;=> kilogram
+;;=> metric ton
 
 [:measurement :volume]
-;;=> quart
+;;=> teaspoon
 
 [:measurement :weight]
 ;;=> ounce
 
 [:michael-scott :quotes]
-;;=> I am running away from my responsibilities. And it feels good.
+;;=> Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject. So you know you are getting the best possible information.
 
 [:military :air-force-rank]
 ;;=> Airman First Class
 
 [:military :army-rank]
-;;=> Lieutenant Colonel
-
-[:military :coast-guard-rank]
-;;=> Master Chief Petty Officer
-
-[:military :dod-paygrade]
-;;=> W-4
-
-[:military :marines-rank]
 ;;=> Sergeant
 
+[:military :coast-guard-rank]
+;;=> Master Chief Petty Officer of the Coast Guard
+
+[:military :dod-paygrade]
+;;=> O-1E
+
+[:military :marines-rank]
+;;=> Corporal
+
 [:military :navy-rank]
-;;=> Chief Petty Officer
+;;=> Constructionman
 
 [:military :space-force-rank]
-;;=> Chief Master Sergeant
+;;=> Second Lieutenant
 
 [:mountain :name]
-;;=> Malangutti Sar
+;;=> Masherbrum
 
 [:mountain :range]
-;;=> Wrangell Mountains
+;;=> Nagarze Himalaya
 
 [:movie :quote]
-;;=> May the Force be with you.
+;;=> All right, Mr. DeMille, I'm ready for my closeup.
 
 [:movie :title]
-;;=> Gone with the Wind
+;;=> The Best Years of Our Lives
 
 [:music :albums]
-;;=> The Immaculate Collection
+;;=> Whitney Houston
 
 [:music :bands]
-;;=> Sinead O'connor
+;;=> The Faces
 
 [:music :genres]
-;;=> Country
+;;=> Jazz
 
 [:music :hiphop :artist]
-;;=> Jeezy
+;;=> Nicki Minaj
 
 [:music :hiphop :groups]
-;;=> Tribe Call Quest
+;;=> Outcast
 
 [:music :hiphop :subgenres]
-;;=> Old School
+;;=> Trap
 
 [:music :instruments]
-;;=> Oboe
+;;=> Harmonica
 
 [:music :mambo-no-5]
-;;=> Angela
+;;=> Pamela
 
 [:name :female-first-name]
-;;=> Timothy
+;;=> Deloris
 
 [:name :first-name]
-;;=> Ian
+;;=> Lawanda
 
 [:name :last-name]
-;;=> Bednar
+;;=> Nader
 
 [:name :male-first-name]
-;;=> Jerome
+;;=> Lucio
 
 [:name :name-with-middle]
-;;=> Salvador Schoen Schoen
+;;=> Thuy Mayert Mayert V
 
 [:name :name]
-;;=> Charlene Roberts
+;;=> Kathey Tremblay
 
 [:name :neutral-first-name]
-;;=> River
+;;=> Avery
 
 [:name :prefix]
-;;=> Sen.
+;;=> Mrs.
 
 [:name :suffix]
-;;=> I
+;;=> V
 
 [:naruto :characters]
-;;=> Abiru
+;;=> Ashitaba
 
 [:naruto :demons]
-;;=> Nine-Tails (Kurama)
+;;=> Four-Tails (Son Goku)
 
 [:naruto :eyes]
-;;=> Mangekyō Sharingan
+;;=> Rinnegan
 
 [:naruto :villages]
-;;=> Konohagakure (Leaf Village)
+;;=> Kirigakure (Mist Village)
 
 [:nation :capital-city]
-;;=> Riga
+;;=> Santiago
 
 [:nation :flag]
 ;;=> 240
@@ -4194,7 +4269,7 @@
 ;;=> Russian
 
 [:nation :nationality]
-;;=> Moldovans
+;;=> Jordanians
 
 [:nato-phonetic-alphabet :code-word]
 ;;=> Whiskey
@@ -4205,35 +4280,50 @@
 [:new-girl :quotes]
 ;;=> With your big, beautiful blue eyes and my Blair Underwood-like skin, we'd have the most beautiful baby the world has ever seen.
 
+[:number :big-integer]
+;;=> 223722667117343
+
+[:number :decimal]
+;;=> 865.94M
+
+[:number :float]
+;;=> 15.919552988713287
+
+[:number :percentage]
+;;=> 28M
+
+[:number :small-integer]
+;;=> 149
+
 [:one-piece :akumas-no-mi]
-;;=> Doru Doru no Mi
+;;=> Suke Suke no Mi
 
 [:one-piece :characters]
-;;=> Boa Hancock
+;;=> Sugar
 
 [:one-piece :islands]
-;;=> Baltigo
+;;=> Namakura Island
 
 [:one-piece :locations]
-;;=> Yuba
+;;=> Upper Yard
 
 [:one-piece :quotes]
-;;=> It's not some sort of special power. He has the ability to make allies of everyone he meets. And that is the most fearsome ability on the high seas.
+;;=> Food is a gift from god. Spices are a gift from the devil. It looks like it was a bit too spicy for you.
 
 [:one-piece :seas]
-;;=> All Blue
+;;=> South Blue
 
 [:opera :french :by-camille-saint-saëns]
-;;=> Samson and Delilah
+;;=> Proserpine
 
 [:opera :french :by-charles-gounod]
-;;=> Maître Pierre
+;;=> La reine de Saba
 
 [:opera :french :by-christoph-willibald-gluck]
-;;=> Armide
+;;=> L'ivrogne corrigé ou le mariage du diable
 
 [:opera :french :by-georges-bizet]
-;;=> Le docteur Miracle
+;;=> La Guzla de l'émir
 
 [:opera :french :by-hector-berlioz]
 ;;=> Benvenuto Cellini
@@ -4245,34 +4335,34 @@
 ;;=> Lulu
 
 [:opera :german :by-carl-maria-von-weber]
-;;=> Euryanthe
+;;=> Der Freischütz
 
 [:opera :german :by-franz-schubert]
-;;=> Sakuntala
+;;=> Alfonso und Estrella
 
 [:opera :german :by-ludwig-van-beethoven]
 ;;=> Fidelio
 
 [:opera :german :by-richard-strauss]
-;;=> Friedenstag
+;;=> Capriccio
 
 [:opera :german :by-richard-wagner]
-;;=> Die Feen
+;;=> Die Walküre
 
 [:opera :german :by-robert-schumann]
 ;;=> Genoveva
 
 [:opera :german :by-wolfgang-amadeus-mozart]
-;;=> Thamos, König in ­Ägypten
+;;=> Die Zauberflöte
 
 [:opera :italian :by-christoph-willibald-gluck]
-;;=> Alceste
+;;=> Artaserse
 
 [:opera :italian :by-gaetano-donizetti]
-;;=> Il diluvio universale
+;;=> Pia de' Tolomei
 
 [:opera :italian :by-gioacchino-rossini]
-;;=> Semiramide
+;;=> Maometto II
 
 [:opera :italian :by-giuseppe-verdi]
 ;;=> Un Ballo in Maschera
@@ -4281,292 +4371,292 @@
 ;;=> I puritani
 
 [:opera :italian :by-wolfgang-amadeus-mozart]
-;;=> Il re pastore
+;;=> La finta semplice
 
 [:parks-and-rec :characters]
-;;=> Ron Swanson
+;;=> Crazy Ira
 
 [:parks-and-rec :cities]
 ;;=> Boraqua
 
 [:pearl-jam :albums]
-;;=> Lost Dogs
+;;=> Vitology
 
 [:pearl-jam :musicians]
-;;=> Jeff Ament
+;;=> Dave Abbruzzese
 
 [:pearl-jam :songs]
-;;=> The Color Red
+;;=> Mind Your Manners
 
 [:phish :albums]
-;;=> Joy
+;;=> Round Room
 
 [:phish :musicians]
-;;=> Mike Gordon
+;;=> Trey Anastasio
 
 [:phish :songs]
-;;=> Prince Caspian
+;;=> Amidst the Peals of Laughter
 
 [:phone-number :formats]
-;;=> 1-333-950-9830 x724
+;;=> (890) 640-4495
 
 [:prince :album]
-;;=> The Chocolate Invasion
+;;=> One Nite Alone...
 
 [:prince :band]
-;;=> Vanity 6
+;;=> The Family
 
 [:prince :lyric]
-;;=> I knew from the start, that I loved you with all my heart, but you were untrue. You had another lover and she looked just like you.
+;;=> Meet me in another world, space and joy. Vous etes tres belle, mama, girls and boys.
 
 [:prince :song]
-;;=> 200 Balloons
+;;=> And God Created Woman
 
 [:princess-bride :characters]
-;;=> The Albino
+;;=> The Countess
 
 [:princess-bride :quotes]
-;;=> You keep using that word. I do not think it means what you think it means.
+;;=> That does put a damper on our relationship.
 
 [:programming-language :creator]
-;;=> Larry Wall
+;;=> Walter Bright
 
 [:programming-language :name]
-;;=> Hamilton C shell
+;;=> Milk (programming language)
 
 [:quote :famous-last-words]
-;;=> Okay, I won't.
+;;=> I wish I could go with you.
 
 [:quote :fortune-cookie]
-;;=> Destiny is what you choose it to be; fate is what happens when you relinquish your freedom
+;;=> Two wrongs do not make a right.
 
 [:quote :jack-handey]
-;;=> I'd rather be rich than stupid.
+;;=> Instead of having "answers" on a math test, they should just call them "impressions," and if you got a different "impression," so what, can't we all be brothers?
 
 [:quote :matz]
-;;=> I didn't work hard to make Ruby perfect for everyone, because you feel differently from me. No language can be perfect for everyone. I tried to make Ruby perfect for me, but maybe it's not perfect for you. The perfect language for Guido van Rossum is probably Python.
+;;=> Sometimes people jot down pseudo-code on paper. If that pseudo-code runs directly on their computers, its best, isn't it? Ruby tries to be like that, like pseudo-code that runs. Python people say that too.
 
 [:quote :most-interesting-man-in-the-world]
-;;=> If he were to punch you in the face you would have to fight off a strong urge to thank him
+;;=> Werewolves are jealous of his beard
 
 [:quote :robin]
-;;=> Holy Ghost Writer
+;;=> Holy Fruit Salad
 
 [:quote :singular-siegler]
 ;;=> Y'all never listen to me
 
 [:quote :yoda]
-;;=> Your weapons, you will not need them.
+;;=> Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.
 
 [:rajnikanth :joke]
-;;=> Einstein said you can't move at the speed of light, obviously he was never kicked by Rajinikanth
+;;=> Rajinikanth threw a grenade and killed 50 people, then grenade exploded
 
 [:relationship :familial :direct]
-;;=> Brother
+;;=> Mother
 
 [:relationship :familial :extended]
-;;=> Grandson
+;;=> Nephew
 
 [:relationship :in-law]
-;;=> Sister-in-law
+;;=> Brother-in-law
 
 [:relationship :parent]
 ;;=> Mother
 
 [:relationship :sibling]
-;;=> Sister
+;;=> Brother
 
 [:relationship :spouse]
 ;;=> Husband
 
 [:restaurant :description]
-;;=> We earn the loyalty of the people we serve by first anticipating, then fulfilling their needs with our superior-quality products, a unique shopping experience, customer-focused service and continuous innovation, while generating long-term profitable growth for our shareholders.
+;;=> To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do.
 
 [:restaurant :name-prefix]
-;;=> Golden
+;;=> 446
 
 [:restaurant :name-suffix]
-;;=> Pizza
+;;=> Eatery
 
 [:restaurant :name]
-;;=> Golden Dragon
+;;=> ??? Spoon
 
 [:restaurant :review]
-;;=> For dessert, we ordered the chocolate drizzled churros and they were delicious too! They even came with some fresh fruit (blueberries and strawberries).
+;;=> Ambience was good, service was no nonsense but friendly.
 
 [:restaurant :type]
-;;=> Italian
+;;=> Mexican
 
 [:rick-and-morty :characters]
-;;=> Fart
+;;=> Birdperson
 
 [:rick-and-morty :locations]
-;;=> Alphabetrium
+;;=> Pluto
 
 [:rick-and-morty :quotes]
-;;=> No no, If I wanted to be sober, I wouldn’t have gotten drunk.
+;;=> Go home and drink, grandpa.
 
 [:rock-band :name]
-;;=> Duran Duran
+;;=> No Doubt
 
 [:rock-band :song]
-;;=> Bad Company
+;;=> Dirty Deeds
 
 [:room :actors]
-;;=> Tommy Wiseau
+;;=> Robyn Paris
 
 [:room :characters]
-;;=> Denny
+;;=> Michelle
 
 [:room :locations]
-;;=> Claudette's Place
+;;=> Rooftop
 
 [:room :quotes]
 ;;=> You’re lying, I never hit you. You are tearing me apart, Lisa!
 
 [:rupaul :queens]
-;;=> Mayhem Miller
+;;=> Brook Lynn Hytes
 
 [:rupaul :quotes]
-;;=> Now, let the music play!
+;;=> Good luck, and don't fuck it up.
 
 [:rush :albums]
-;;=> A Farewell to Kings
+;;=> Presto
 
 [:rush :players]
-;;=> John Rutsey
+;;=> Neil Peart
 
 [:science :branch :empirical-natural-applied]
-;;=> Agricultural Science
+;;=> Medicine
 
 [:science :branch :empirical-natural-basic]
-;;=> Biology
+;;=> Physics
 
 [:science :branch :empirical-social-applied]
-;;=> Law
+;;=> Marketing
 
 [:science :branch :empirical-social-basic]
-;;=> Sociology
+;;=> Economics
 
 [:science :branch :formal-applied]
 ;;=> Computer Science
 
 [:science :branch :formal-basic]
-;;=> Statistics
+;;=> Mathematics
 
 [:science :element-state]
-;;=> Plasma
+;;=> Gas
 
 [:science :element-subcategory]
-;;=> Noble gas
+;;=> Metalloid
 
 [:science :element-symbol]
-;;=> Cl
+;;=> Cn
 
 [:science :element]
-;;=> Beryllium
+;;=> Tantalum
 
 [:science :modifier]
-;;=> Linear
+;;=> Infrared
 
 [:science :scientist]
-;;=> Ernst Mayr
+;;=> Galileo Galilei
 
 [:science :tool]
-;;=> NMR
+;;=> SDR
 
 [:seinfeld :business]
-;;=> Champagne Video
+;;=> Kramerica Industries
 
 [:seinfeld :character]
 ;;=> Morty Seinfeld
 
 [:seinfeld :quote]
-;;=> You were necking during Schindler's List?
+;;=> You're killing independent George!
 
 [:shakespeare :as-you-like-it]
-;;=> I like this place and willingly could waste my time in it.
+;;=> Can one desire too much of a good thing?
 
 [:shakespeare :hamlet]
-;;=> Brevity is the soul of wit.
+;;=> To be, or not to be, that is the question
 
 [:shakespeare :king-richard-iii]
-;;=> The world is grown so bad that wrens make prey where eagles dare not perch.
+;;=> But then I sigh and, with a piece of scripture, tell them that God bids us do good for evil; and thus I clothe my naked villainy with odd old ends stolen out of Holy Writ, and seem a saint when most I play the devil.
 
 [:shakespeare :romeo-and-juliet]
-;;=> O Romeo, Romeo! Wherefore art thou Romeo?
+;;=> For you and I are past our dancing days.
 
 [:show :adult-musical]
-;;=> The Last Five Years
+;;=> Annie
 
 [:show :kids-musical]
-;;=> Elf The Musical JR.
+;;=> Disney's High School Musical 2 JR.
 
 [:show :play]
-;;=> Zorro in Hell
+;;=> Bad Habits
 
 [:silicon-valley :apps]
-;;=> Clinkle
+;;=> HooliChat
 
 [:silicon-valley :characters]
-;;=> Richard Hendricks
+;;=> Keenan Feldspar
 
 [:silicon-valley :companies]
-;;=> Coleman-Blair
+;;=> Yoyodyne
 
 [:silicon-valley :email]
-;;=> bertram@piedpiper.test
+;;=> laurie@raviga.test
 
 [:silicon-valley :inventions]
-;;=> Skycrane
+;;=> Anton
 
 [:silicon-valley :mottos]
-;;=> Creating unique cross-platform technologies
+;;=> Making the world a better place
 
 [:silicon-valley :quotes]
-;;=> Let me ask you. How fast do you think you could jerk off every guy in this room? Because I know how long it would take me. And I can prove it
+;;=> It's weird. They always travel in groups of five. These programmers, there's always a tall, skinny white guy; short, skinny Asian guy; fat guy with a ponytail; some guy with crazy facial hair; and then an East Indian guy. It's like they trade guys until they all have the right group.
 
 [:silicon-valley :urls]
-;;=> http://piedpiper.com
+;;=> http://drinkhomicide.com
 
 [:simpsons :characters]
-;;=> Grampa Abraham Simpson
+;;=> Rabbi Hyman Krustofski
 
 [:simpsons :episode-titles]
-;;=> 'Round Springfield
+;;=> Homerland
 
 [:simpsons :locations]
-;;=> Springfield
+;;=> Jake's Unisex Hairplace
 
 [:simpsons :quotes]
-;;=> Son, if you really want something in this life, you have to work for it. Now quiet! They're about to announce the lottery numbers.
+;;=> To alcohol! The cause of, and solution to, all of life's problems.
 
 [:slack-emoji :activity]
-;;=> :rugby_football:
+;;=> :black_joker:
 
 [:slack-emoji :celebration]
-;;=> :collision:
+;;=> :broken_heart:
 
 [:slack-emoji :custom]
-;;=> :suspect:
+;;=> :goberserk:
 
 [:slack-emoji :emoji]
-;;=> :tea:
+;;=> :tangerine:
 
 [:slack-emoji :food-and-drink]
-;;=> :cocktail:
+;;=> :honey_pot:
 
 [:slack-emoji :nature]
-;;=> :pig2:
+;;=> :waxing_crescent_moon:
 
 [:slack-emoji :objects-and-symbols]
-;;=> :arrow_up_small:
+;;=> :gemini:
 
 [:slack-emoji :people]
-;;=> :confused:
+;;=> :angry:
 
 [:slack-emoji :travel-and-places]
-;;=> :statue_of_liberty:
+;;=> :hospital:
 
 [:source :hello-world :c]
 ;;=> printf('Hello World!');
@@ -4632,40 +4722,40 @@
 ;;=>  (1..10).each { |i| puts i }
 
 [:south-park :characters]
-;;=> Tuong Lu Kim
+;;=> Mr. Hankey
 
 [:south-park :quotes]
-;;=> I don't make the rules Kyle, I simply think them up and write them down
+;;=> I'm not just sure, I'm HIV positive
 
 [:space :agency-abv]
-;;=> ISRO
+;;=> UKSA
 
 [:space :agency]
-;;=> European Space Agency
+;;=> National Aeronautics and Space Administration
 
 [:space :company]
-;;=> SpaceDev
+;;=> NASA Jet Propulsion Laboratory
 
 [:space :constellation]
-;;=> Libra
+;;=> Ursa Major
 
 [:space :distance-measurement]
-;;=> parsecs
+;;=> light years
 
 [:space :galaxy]
-;;=> Milky Way
+;;=> Centaurus A
 
 [:space :launch-vehicle]
-;;=> Ariane 5
+;;=> Juno
 
 [:space :meteorite]
-;;=> Mackinac Island
+;;=> Sulagiri
 
 [:space :moon]
-;;=> Callisto
+;;=> Europa
 
 [:space :nasa-space-craft]
-;;=> Discovery
+;;=> Enterprise
 
 [:space :nebula]
 ;;=> Owl Nebula
@@ -4677,28 +4767,28 @@
 ;;=> Koposov I
 
 [:space :star]
-;;=> Ross 154
+;;=> Sirius B
 
 [:star-trek :character]
-;;=> Montgomery Scott
+;;=> Jonathan Archer
 
 [:star-trek :location]
-;;=> Ferenginar
+;;=> Wolf 359
 
 [:star-trek :specie]
-;;=> Ocampa
+;;=> Bajoran
 
 [:star-trek :villain]
-;;=> Khan Noonien Singh
+;;=> Nero
 
 [:star-wars :alternate-character-spellings :admiral-ackbar]
-;;=> ackbar
+;;=> admiral ackbar
 
 [:star-wars :alternate-character-spellings :ahsoka-tano]
 ;;=> tano
 
 [:star-wars :alternate-character-spellings :anakin-skywalker]
-;;=> anakin
+;;=> anakin skywalker
 
 [:star-wars :alternate-character-spellings :asajj-ventress]
 ;;=> asajj_ventress
@@ -4707,121 +4797,121 @@
 ;;=> the bendu
 
 [:star-wars :alternate-character-spellings :boba-fett]
-;;=> boba fett
+;;=> bobafett
 
 [:star-wars :alternate-character-spellings :c-3po]
 ;;=> c_3po
 
 [:star-wars :alternate-character-spellings :count-dooku]
-;;=> count dooku
+;;=> count_dooku
 
 [:star-wars :alternate-character-spellings :darth-caedus]
-;;=> darth_caedus
+;;=> darth caedus
 
 [:star-wars :alternate-character-spellings :darth-vader]
-;;=> vader
+;;=> darth vader
 
 [:star-wars :alternate-character-spellings :emperor-palpatine]
-;;=> darth sidious
+;;=> emperor_palpatine
 
 [:star-wars :alternate-character-spellings :finn]
-;;=> fn-2187
+;;=> fin
 
 [:star-wars :alternate-character-spellings :general-hux]
-;;=> hux
+;;=> general hux
 
 [:star-wars :alternate-character-spellings :grand-admiral-thrawn]
 ;;=> grand_admiral_thrawn
 
 [:star-wars :alternate-character-spellings :grand-moff-tarkin]
-;;=> tarkin
+;;=> moff tarkin
 
 [:star-wars :alternate-character-spellings :greedo]
 ;;=> greedo
 
 [:star-wars :alternate-character-spellings :han-solo]
-;;=> han_solo
+;;=> general han solo
 
 [:star-wars :alternate-character-spellings :jabba-the-hutt]
-;;=> jabba
+;;=> jabba the hut
 
 [:star-wars :alternate-character-spellings :jar-jar-binks]
 ;;=> the best character
 
 [:star-wars :alternate-character-spellings :k-2so]
-;;=> k_2so
+;;=> k-2so
 
 [:star-wars :alternate-character-spellings :kylo-ren]
-;;=> kylo_ren
+;;=> kylo ren
 
 [:star-wars :alternate-character-spellings :lando-calrissian]
-;;=> general lando calrissian
+;;=> general calrissian
 
 [:star-wars :alternate-character-spellings :leia-organa]
-;;=> general leia
+;;=> general leia organa
 
 [:star-wars :alternate-character-spellings :luke-skywalker]
-;;=> luke_skywalker
+;;=> luke
 
 [:star-wars :alternate-character-spellings :mace-windu]
-;;=> mace windu
+;;=> mace_windu
 
 [:star-wars :alternate-character-spellings :maz-kanata]
-;;=> maz_kanata
+;;=> maz
 
 [:star-wars :alternate-character-spellings :obi-wan-kenobi]
-;;=> ben
+;;=> obi_wan_kenobi
 
 [:star-wars :alternate-character-spellings :padme-amidala]
-;;=> padme amidala
+;;=> padme_amidala
 
 [:star-wars :alternate-character-spellings :qui-gon-jinn]
-;;=> qui_gon_jinn
+;;=> master qui-gon
 
 [:star-wars :alternate-character-spellings :rey]
 ;;=> rey
 
 [:star-wars :alternate-character-spellings :shmi-skywalker]
-;;=> shmi_skywalker
+;;=> shmi skywalker
 
 [:star-wars :alternate-character-spellings :yoda]
 ;;=> master yoda
 
 [:star-wars :call-numbers]
-;;=> Leader
+;;=> 8
 
 [:star-wars :call-squadrons]
-;;=> Gray
+;;=> Green
 
 [:star-wars :characters]
-;;=> Yoda
+;;=> Jyn Erso
 
 [:star-wars :droids]
-;;=> LM-432
+;;=> Interrogation Droid
 
 [:star-wars :planets]
-;;=> Hoth
+;;=> Jedha
 
 [:star-wars :quotes :admiral-ackbar]
 ;;=> The Shield is down! Commence attack on the Death Star's main reactor.
 
 [:star-wars :quotes :ahsoka-tano]
-;;=> Suicide is not the Jedi way, Master.
+;;=> Sorry to interrupt your playtime, Grumpy, but wouldn't you prefer a challenge?
 
 [:star-wars :quotes :anakin-skywalker]
-;;=> Just for once, let me look on you with my own eyes.
+;;=> Jedi business, go back to your drinks!
 
 [:star-wars :quotes :asajj-ventress]
-;;=> Not even the dark side can give you that power.
+;;=> You're tenacious, Jedi.
 
 [:star-wars :quotes :bendu]
-;;=> An object cannot make you good, or evil. The temptation of power, forbidden knowledge, even the desire to do good can lead some down that path. But only you can change yourself.
+;;=> Once something is known, it cannot be unknown.
 
 [:star-wars :quotes :boba-fett]
 ;;=> He's no good to me dead.
 
 [:star-wars :quotes :c-3po]
-;;=> Now don't you forget this! Why I should stick my neck out for you is far beyond my capacity!
+;;=> I have a bad feeling about this.
 
 [:star-wars :quotes :count-dooku]
 ;;=> Twice the pride, double the fall.
@@ -4830,49 +4920,49 @@
 ;;=> You're smarter than a tree, aren't you?
 
 [:star-wars :quotes :darth-vader]
-;;=> You are unwise to lower your defenses!
+;;=> You may use any methods necessary, but I want them alive. No disintegrations!
 
 [:star-wars :quotes :emperor-palpatine]
-;;=> Let the hate flow through you!
+;;=> Your hate has made you powerful. Now fulfill your destiny, take you're father's place by my side.
 
 [:star-wars :quotes :finn]
 ;;=> Sanitation
 
 [:star-wars :quotes :general-hux]
-;;=> Careful, Ren, that your personal interests not interfere with orders from Leader Snoke.
+;;=> I won't have you question my methods.
 
 [:star-wars :quotes :grand-admiral-thrawn]
 ;;=> I will start my operations here, and pull the rebels apart piece by piece. They'll be the architects of their own destruction.
 
 [:star-wars :quotes :grand-moff-tarkin]
-;;=> The Jedi are extinct. Their fire has gone out of the universe. You, my friend, are all that's left of their religion.
+;;=> Now, witness the power of this fully operational battle station.
 
 [:star-wars :quotes :greedo]
-;;=> Semal hi teek teek. (Jabba's through with you.)
+;;=> Jabba won neechee kochba mu shanee wy tonny wya uska. (Jabba put a price on your head so large, every bounty hunter in the galaxy will be looking for you.)
 
 [:star-wars :quotes :han-solo]
-;;=> She may not look like much, but she's got it where it counts, kid.
+;;=> If they follow standard Imperial procedure, they'll dump their garbage before they go to light-speed.
 
 [:star-wars :quotes :jabba-the-hutt]
-;;=> Han, ma bookie, baldo nee anna dodo da eena. (You're the best.)
+;;=> See fa doi dee yaba… for an extra twenty percent… do ee deen. (Okay, fifteen percent.)
 
 [:star-wars :quotes :jar-jar-binks]
-;;=> Ohh, maxi big da Force. Well dat smells stinkowiff.
+;;=> Yipe! How wude!
 
 [:star-wars :quotes :k-2so]
 ;;=> I have a bad feeling about…
 
 [:star-wars :quotes :kylo-ren]
-;;=> You need a teacher. I can show you the ways of the Force.
+;;=> Show me again, Grandfather, and I will finish what you started.
 
 [:star-wars :quotes :lando-calrissian]
-;;=> This deal is getting worse all the time.
+;;=> But how could they be jamming us if they don't know that we're coming?
 
 [:star-wars :quotes :leia-organa]
 ;;=> Aren't you a little short for a Stormtrooper?
 
 [:star-wars :quotes :luke-skywalker]
-;;=> I am a Jedi, like my father before me.
+;;=> You'll find I'm full of surprises!
 
 [:star-wars :quotes :mace-windu]
 ;;=> The senate will decide your fate.
@@ -4881,46 +4971,46 @@
 ;;=> I assume you need something. Desperately.
 
 [:star-wars :quotes :obi-wan-kenobi]
-;;=> That's no moon. It's a space station.
+;;=> You don’t need to see his identification. These aren’t the droids you’re looking for.
 
 [:star-wars :quotes :padme-amidala]
-;;=> I was not elected to watch my people suffer and die while you discuss this invasion in a committee!
+;;=> So this is how liberty dies. With thunderous applause.
 
 [:star-wars :quotes :qui-gon-jinn]
 ;;=> Remember, your focus determines your reality.
 
 [:star-wars :quotes :rey]
-;;=> You will remove these restraints and leave this cell with the door open.
+;;=> The garbage'll do
 
 [:star-wars :quotes :shmi-skywalker]
-;;=> The Republic doesn't exist out here. We must survive on our own.
+;;=> You can't stop change any more than you can stop the suns from setting.
 
 [:star-wars :quotes :yoda]
-;;=> Wars not make one great.
+;;=> Train yourself to let go of everything you fear to lose.
 
 [:star-wars :species]
-;;=> Ithorian
+;;=> Kaminoan
 
 [:star-wars :vehicles]
-;;=> Imperial Interdictor
+;;=> AT-ST Walker
 
 [:star-wars :wookiee-words]
-;;=> muaa
+;;=> kabukk
 
 [:stargate :characters]
-;;=> Cronus
+;;=> Anubis
 
 [:stargate :planets]
-;;=> Athos
+;;=> Dakara
 
 [:stargate :quotes]
-;;=> It's always suicide mission this, save the planet that. No one ever just stops by to say hi anymore.
+;;=> Undomesticated equines could not remove me.
 
 [:stranger-things :character]
-;;=> Steve
+;;=> Jonathan
 
 [:stranger-things :quote]
-;;=> Maybe I’m crazy, maybe I’m out of my mind! But God help me, I will keep these lights up until the day I die if I think there’s a chance that Will’s still out there!
+;;=> Mornings are for coffee and contemplation.
 
 [:stripe :invalid-cards :address-fail]
 ;;=> 4000000000000028
@@ -5028,605 +5118,617 @@
 ;;=> tok_visa
 
 [:studio-ghibli :characters]
-;;=> No-Face
+;;=> Jhil
 
 [:studio-ghibli :movies]
-;;=> Princess Mononoke
+;;=> Ponyo
 
 [:studio-ghibli :quotes]
-;;=> I finally get a bouquet and it's a goodbye present. That's depressing.
+;;=> Life is suffering. It is hard. The world is cursed. But still you find reasons to keep living.
 
 [:subscription :payment-methods]
-;;=> Credit card
+;;=> Visa checkout
 
 [:subscription :payment-terms]
-;;=> Annual
-
-[:subscription :plans]
-;;=> Essential
-
-[:subscription :statuses]
-;;=> Blocked
-
-[:subscription :subscription-terms]
 ;;=> Monthly
 
+[:subscription :plans]
+;;=> Basic
+
+[:subscription :statuses]
+;;=> Idle
+
+[:subscription :subscription-terms]
+;;=> Triennal
+
 [:suits :characters]
-;;=> Trevor Evans
+;;=> Ava Hessington
 
 [:suits :quotes]
 ;;=> Thats the difference between you and me. You wanna lose small, I wanna win big.
 
 [:superhero :descriptor]
-;;=> Deathlok
+;;=> Gog
 
 [:superhero :name]
-;;=> Ultra Titan Wolf
+;;=> Ultra Firelord
 
 [:superhero :power]
-;;=> Aerokinesis
+;;=> Death Touch
 
 [:superhero :prefix]
-;;=> Cyborg
+;;=> Captain
 
 [:superhero :suffix]
-;;=> IX
+;;=> III
 
 [:supernatural :character]
-;;=> Dumah
+;;=> Gavin MacLeod
 
 [:supernatural :creature]
-;;=> Archangel
+;;=> Djinn
 
 [:supernatural :weapon]
-;;=> Hands Of God
+;;=> Holy Water
 
 [:sword-art-online :game-name]
-;;=> Thinker
+;;=> Yulier
 
 [:sword-art-online :item]
-;;=> Tremble Shortcake
+;;=> Defense Field
 
 [:sword-art-online :location]
-;;=> Algade House
+;;=> Alne
 
 [:sword-art-online :real-name]
-;;=> Asada Shino
+;;=> Karatachi Nijika
 
 [:tea :type]
-;;=> Herbal
+;;=> White
 
 [:tea :variety :black]
-;;=> Jiu Qu Hong Mei
+;;=> Masala Chai
 
 [:tea :variety :green]
-;;=> Garucha
+;;=> Ipcha
 
 [:tea :variety :herbal]
-;;=> Sagebrush
+;;=> Cerasse
 
 [:tea :variety :oolong]
-;;=> Shui Jin Gui
+;;=> Ji Xuan
 
 [:tea :variety :white]
-;;=> Fujian New Craft
+;;=> Bai Mu Dan
 
 [:team :creature]
-;;=> ants
+;;=> witches
 
 [:team :mascot]
-;;=> Raymond
+;;=> K.C. Wolf
 
 [:team :name]
-;;=> Tennessee birds
+;;=> North Dakota fishes
 
 [:team :sport]
-;;=> dandi biyo
+;;=> gymnastics
 
 [:the-expanse :characters]
-;;=> Joe Miller
+;;=> Sadavir Errinwright
 
 [:the-expanse :locations]
-;;=> Earth
+;;=> Mars
 
 [:the-expanse :quotes]
-;;=> This isn't just about the war, we need to contain the protomolecule, make sure it doesn't fall into the wrong hands!
+;;=> My great uncle emigrated from Earth. He missed it terribly. He used to tell me stories when I was a little boy about these... endless blue skies, free air everywhere, open water all the way to the horizon. He told me that someday we would make Mars just like that. When you spend your whole life living under a dome, even the idea of an ocean seems impossible to imagine. I could never understand your people. Why, when the universe has bestowed so much upon you, you seem to care so little for it?
 
 [:the-expanse :ships]
-;;=> Aristophanes
+;;=> Canterbury
 
 [:the-fresh-prince-of-bel-air :actors]
-;;=> William Shatner
+;;=> Regis Philbin
 
 [:the-fresh-prince-of-bel-air :characters]
-;;=> Vy Smith
+;;=> Trevor
 
 [:the-fresh-prince-of-bel-air :quotes]
-;;=> No way. Dude's got a gun. Next thing you know, I got six warning shots in my back.
+;;=> Well, someone has her rude hat on tonight.
 
 [:the-it-crowd :actors]
-;;=> Orlando Seal
+;;=> Sarah Hadland
 
 [:the-it-crowd :characters]
-;;=> Jen Barber
+;;=> Helen Buley
 
 [:the-it-crowd :emails]
-;;=> nolan@reynholm.test
+;;=> johan@hotmail.test
 
 [:the-it-crowd :quotes]
-;;=> Would I blow everyone's mind if I ate dessert first?
+;;=> Ugh, OK, well the button on the side, is it glowing?... Yeah, you need to turn it on. Erm, the button turns it on. Yeah, you... you do know how a button works don't you? No, not on clothes.
 
 [:the-office :characters]
-;;=> Nellie Bertram
+;;=> Kelly Kapoor
 
 [:the-office :quotes]
-;;=> And I feel God in this Chili’s tonight.
+;;=> Close your mouth, sweetie. You look like a trout.
 
 [:the-thick-of-it :characters]
-;;=> Hugh Abbot
+;;=> Steve Fleming
 
 [:the-thick-of-it :departments]
-;;=> Cabinet Office
+;;=> Department of Education
 
 [:the-thick-of-it :positions]
-;;=> Former Media Adviser to the Leader of the Opposition
+;;=> Head of Advanced Implementation Unit
+
+[:time :date-time]
+;;=> #object[java.time.LocalDateTime 0x63721793 2013-09-22T20:13:41.331569597]
+
+[:time :date]
+;;=> #object[java.time.LocalDate 0x71551cd5 2001-02-12]
+
+[:time :time]
+;;=> #object[java.time.LocalTime 0x1c74dd97 02:29:07.016650140]
+
+[:time :year]
+;;=> 1991
 
 [:tolkien :characters]
-;;=> Mouth of Sauron
+;;=> Dís
 
 [:tolkien :hobbit :character]
-;;=> The Great Goblin
+;;=> Golfimbul
 
 [:tolkien :hobbit :location]
-;;=> Country Round
+;;=> Ravenhill
 
 [:tolkien :hobbit :quote]
-;;=> The road goes ever on and on...
+;;=> May the hair on your toes never fall out!
 
 [:tolkien :hobbit :thorins-company]
-;;=> Gloin
+;;=> Dori
 
 [:tolkien :locations]
-;;=> Nenuial
+;;=> Langflood
 
 [:tolkien :lord-of-the-rings :characters]
-;;=> Treebeard
+;;=> Arwen Evenstar
 
 [:tolkien :lord-of-the-rings :locations]
-;;=> Barad-dûr
+;;=> Houses of Healing
 
 [:tolkien :lord-of-the-rings :quotes]
-;;=> Often does hatred hurt itself!
+;;=> All's well that ends better.
 
 [:tolkien :poems]
-;;=> Seek for the Sword that was broken
+;;=> A Rhyme of Lore
 
 [:tolkien :races]
-;;=> Half-orc
+;;=> Half-elven
 
 [:twin-peaks :characters]
-;;=> Sarah Palmer
+;;=> Mr Tojamura
 
 [:twin-peaks :locations]
 ;;=> Timber Falls Motel
 
 [:twin-peaks :quotes]
-;;=> I have no idea where this will lead us. But I have a definite feeling it will be a place both wonderful and strange.
+;;=> Windom Earle's mind is like a diamond. It's cold, and hard, and brilliant.
 
 [:umphreys-mcgee :song]
-;;=> Remind Me
+;;=> Yoga Pants
 
 [:university :name]
-;;=> Carter Academy
+;;=> West Schamberger University
 
 [:university :prefix]
-;;=> Northern
+;;=> Eastern
 
 [:university :suffix]
-;;=> College
+;;=> Institute
 
 [:v-for-vendetta :characters]
-;;=> Evey Hammond
+;;=> Alistair "Ally" Harper
 
 [:v-for-vendetta :quotes]
-;;=> Conceal me what I am, and be my aid For such disguise as haply shall become The form of my intent.
+;;=> Sutler. Come now, Mr. Creedy, you knew this was coming. You knew that one day, it'd be you or him. That's why Sutler's been kept underground, for 'security purposes'. That's why there are several of your men close to Sutler. Men that could be counted on. All you have to do is say the word.
 
 [:v-for-vendetta :speeches]
-;;=> Voilà! In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation of a by-gone vexation, stands vivified and has vowed to vanquish these venal and virulent vermin vanguarding vice and vouchsafing the violently vicious and voracious violation of volition. The only verdict is vengeance; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous. Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it's my very good honor to meet you and you may call me V.
+;;=> So I read that the former United States is so desperate for medical supplies that they have allegedly sent several containers filled with wheat and tobacco. A gesture, they said, of good will. You wanna know what I think? Well, you're listening to my show, so I will assume you do... I think it's high time we let the colonies know what we really think of them. I think its payback time for a little tea party they threw for us a few hundred years ago. I say we go down to those docks tonight and dump that crap where everything from the Ulcered Sphincter of Arse-erica belongs! Who's with me? Who's bloody with me? Did you like that? USA... Ulcered Sphincter of Arse-erica, I mean what else can you say? Here was a country that had everything, absolutely everything. And now, 20 years later, is what? The world's biggest leper colony. Why? Godlessness. Let me say that again... Godlessness. It wasn't the war they started. It wasn't the plague they created. It was Judgement. No one escapes their past. No one escapes Judgement. You think he's not up there? You think he's not watching over this country? How else can you explain it? He tested us, but we came through. We did what we had to do. Islington. Enfield. I was there, I saw it all. Immigrants, Muslims, homosexuals, terrorists. Disease-ridden degenerates. They had to go. Strength through unity. Unity through faith. I'm a God-fearing Englishman and I'm goddamn proud of it!
 
 [:vehicle :car-options]
-;;=> Alloy Wheels
+;;=> A/C: Front
 
 [:vehicle :car-types]
-;;=> Sedan
+;;=> Passenger Van
 
 [:vehicle :colors]
-;;=> Blue
+;;=> Black
 
 [:vehicle :cylinder-engine]
 ;;=> Cylinder Engine
 
 [:vehicle :doors]
-;;=> 2
+;;=> 4
 
 [:vehicle :drive-types]
-;;=> AWD
+;;=> FWD
 
 [:vehicle :engine-sizes]
 ;;=> 4
 
 [:vehicle :fuel-types]
-;;=> Gasoline Hybrid
+;;=> Electric
 
 [:vehicle :license-plate-by-state :ak]
-;;=> ??? 619
+;;=> ??? 707
 
 [:vehicle :license-plate-by-state :al]
-;;=> 9??5958
+;;=> 0??9577
 
 [:vehicle :license-plate-by-state :ar]
-;;=> 263 ???
+;;=> 472 ???
 
 [:vehicle :license-plate-by-state :az]
-;;=> ???4415
+;;=> ???8631
 
 [:vehicle :license-plate-by-state :ca]
-;;=> 6???764
+;;=> 8???742
 
 [:vehicle :license-plate-by-state :co]
-;;=> ???-167
+;;=> ???-398
 
 [:vehicle :license-plate-by-state :ct]
-;;=> ??·75441
+;;=> ??·76956
 
 [:vehicle :license-plate-by-state :de]
-;;=> 855571
+;;=> 581397
 
 [:vehicle :license-plate-by-state :fl]
-;;=> 536 4??
+;;=> ??? ?67
 
 [:vehicle :license-plate-by-state :ga]
-;;=> ???8587
+;;=> ???9063
 
 [:vehicle :license-plate-by-state :hi]
-;;=> ??? 037
+;;=> ??? 904
 
 [:vehicle :license-plate-by-state :ia]
-;;=> ??? 690
+;;=> ??? 822
 
 [:vehicle :license-plate-by-state :id]
-;;=> 9B ??633
+;;=> 1G 95798
 
 [:vehicle :license-plate-by-state :il]
-;;=> ?? 52983
+;;=> ??9 0303
 
 [:vehicle :license-plate-by-state :in]
-;;=> 920??
+;;=> 6365 ???
 
 [:vehicle :license-plate-by-state :ks]
-;;=> 623 ???
+;;=> 345 ???
 
 [:vehicle :license-plate-by-state :ky]
-;;=> 200 ???
+;;=> 457 ???
 
 [:vehicle :license-plate-by-state :la]
-;;=> 434 BOP
+;;=> 139 ARS
 
 [:vehicle :license-plate-by-state :ma]
-;;=> 346·???
+;;=> 8?? 268
 
 [:vehicle :license-plate-by-state :md]
-;;=> 3CP1004
+;;=> 5DC6487
 
 [:vehicle :license-plate-by-state :me]
-;;=> 6541 RC
+;;=> 6618 HV
 
 [:vehicle :license-plate-by-state :mi]
-;;=> ??? 3202
+;;=> ??? 1274
 
 [:vehicle :license-plate-by-state :mn]
-;;=> ???-903
+;;=> ???-321
 
 [:vehicle :license-plate-by-state :mo]
-;;=> ??9 ?4?
+;;=> ??5 ?7?
 
 [:vehicle :license-plate-by-state :ms]
-;;=> MN? 154
+;;=> IS? 392
 
 [:vehicle :license-plate-by-state :mt]
-;;=> 5[0-6]-0394?
+;;=> [1-4]7-5125?
 
 [:vehicle :license-plate-by-state :nc]
-;;=> ?[A-M]?-7079
+;;=> ?[A-M]?-4806
 
 [:vehicle :license-plate-by-state :nd]
-;;=> 799 ???
+;;=> 713 ???
 
 [:vehicle :license-plate-by-state :ne]
-;;=> [1-8]7-??34
+;;=> [1-8]6-??20
 
 [:vehicle :license-plate-by-state :nh]
-;;=> 437 131
+;;=> 018 1487
 
 [:vehicle :license-plate-by-state :nj]
-;;=> ?13-???
+;;=> ?35-???
 
 [:vehicle :license-plate-by-state :nm]
-;;=> 734-???
+;;=> 424-???
 
 [:vehicle :license-plate-by-state :nv]
-;;=> 619·?11
+;;=> 094·?69
 
 [:vehicle :license-plate-by-state :ny]
-;;=> ???-1010
+;;=> ???-4121
 
 [:vehicle :license-plate-by-state :oh]
-;;=> ??? 8231
+;;=> ??? 9010
 
 [:vehicle :license-plate-by-state :ok]
-;;=> ???-955
+;;=> ???-702
 
 [:vehicle :license-plate-by-state :or]
-;;=> TB 00820
+;;=> 803 ???
 
 [:vehicle :license-plate-by-state :pa]
-;;=> ???-6292
+;;=> ???-2114
 
 [:vehicle :license-plate-by-state :ri]
-;;=> 633-074
+;;=> 95
 
 [:vehicle :license-plate-by-state :sc]
-;;=> ??? 498
+;;=> ??? 466
 
 [:vehicle :license-plate-by-state :sd]
-;;=> 6[0-7]? 158
+;;=> [1-5]6? 973
 
 [:vehicle :license-plate-by-state :tn]
-;;=> ???-781
+;;=> ???-618
 
 [:vehicle :license-plate-by-state :tx]
-;;=> ???-6868
+;;=> ???-1485
 
 [:vehicle :license-plate-by-state :ut]
-;;=> ?685?
+;;=> ?26 3??
 
 [:vehicle :license-plate-by-state :va]
-;;=> ???-9038
+;;=> ???-5633
 
 [:vehicle :license-plate-by-state :vt]
-;;=> ??? 878
+;;=> ??? 368
 
 [:vehicle :license-plate-by-state :wa]
-;;=> ???9026
+;;=> ???2771
 
 [:vehicle :license-plate-by-state :wi]
-;;=> 89720T
+;;=> 27118T
 
 [:vehicle :license-plate-by-state :wv]
-;;=> ???-261
+;;=> 4?-5350
 
 [:vehicle :license-plate-by-state :wy]
-;;=> MM986
+;;=> 99-75388
 
 [:vehicle :license-plate]
-;;=> ???-0901
+;;=> ???-2820
 
 [:vehicle :makes]
-;;=> Dodge
+;;=> Chevy
 
 [:vehicle :manufacture]
-;;=> Maserati
+;;=> BYD
 
 [:vehicle :models-by-make :audi]
 ;;=> A5
 
 [:vehicle :models-by-make :bmw]
-;;=> X5
+;;=> X1
 
 [:vehicle :models-by-make :buick]
-;;=> Enclave
+;;=> Verano
 
 [:vehicle :models-by-make :chevy]
 ;;=> Silverado
 
 [:vehicle :models-by-make :dodge]
-;;=> Ram
+;;=> Charger
 
 [:vehicle :models-by-make :ford]
-;;=> Mustang
+;;=> F150
 
 [:vehicle :models-by-make :honda]
-;;=> CR-V
+;;=> Accord
 
 [:vehicle :models-by-make :lincoln]
 ;;=> MKZ
 
 [:vehicle :models-by-make :nissan]
-;;=> Juke
+;;=> Versa
 
 [:vehicle :models-by-make :toyota]
 ;;=> Camry
 
 [:vehicle :standard-specs]
-;;=> 20" x 9.0" front & 20" x 10.0" rear aluminum wheels
+;;=> Vehicle dynamics integrated management (VDIM) system -inc: vehicle stability control (VSC), traction control (TRAC)
 
 [:vehicle :styles]
-;;=> XL
+;;=> ESi
 
 [:vehicle :transmissions]
-;;=> Automanual
+;;=> Automatic
 
 [:venture-bros :character]
-;;=> Serpentine
+;;=> Eugen Sandow
 
 [:venture-bros :organization]
-;;=> The Revenge Society
+;;=> State University
 
 [:venture-bros :quote]
-;;=> Ah, but we two souls have shared a cheese sandwich more than twice, and the stitched together quilt of your stony silence forms a tapestry of quiet desperation.
+;;=> But he's in Depehce Mode!
 
 [:venture-bros :vehicle]
 ;;=> X-1
 
 [:verbs :base]
-;;=> depend
+;;=> suck
 
 [:verbs :ing-form]
-;;=> ruling
+;;=> facing
 
 [:verbs :past-participle]
-;;=> dug
+;;=> closed
 
 [:verbs :past]
-;;=> rode
+;;=> wound
 
 [:verbs :simple-present]
-;;=> drives
+;;=> eats
 
 [:volleyball :coach]
-;;=> Ryan McGuyre
+;;=> Siergiej Owczinnikow
 
 [:volleyball :formation]
 ;;=> 5-1
 
 [:volleyball :player]
-;;=> Henk-Jan Held
+;;=> Ryszard Bosek
 
 [:volleyball :position]
-;;=> Setter
+;;=> Defensive Specialist
 
 [:volleyball :team]
-;;=> JT Thunders Hiroshima
+;;=> Lokomotiv Novosibirsk
 
 [:world-cup :cities]
-;;=> Kaliningrad
+;;=> Ekaterinburg
 
 [:world-cup :groups :group-a]
 ;;=> Egypt
 
 [:world-cup :groups :group-b]
-;;=> Spain
+;;=> Portugal
 
 [:world-cup :groups :group-c]
-;;=> Peru
+;;=> Denmark
 
 [:world-cup :groups :group-d]
 ;;=> Iceland
 
 [:world-cup :groups :group-e]
-;;=> Brazil
+;;=> Switzerland
 
 [:world-cup :groups :group-f]
-;;=> Mexico
+;;=> Germany
 
 [:world-cup :groups :group-g]
 ;;=> Belgium
 
 [:world-cup :groups :group-h]
-;;=> Japan
+;;=> Columbia
 
 [:world-cup :rosters :argentina]
-;;=> {:coach Jorge Sampaoli, :defenders Cristian Ansaldi, :forwards Sergio Aguero, :goalkeepers Franco Armani, :midfielders Manuel Lanzini}
+;;=> {:coach Jorge Sampaoli, :defenders Nicolas Otamendi, :forwards Lionel Messi, :goalkeepers Sergio Romero, :midfielders Manuel Lanzini}
 
 [:world-cup :rosters :australia]
-;;=> {:coach Bert van Marwijk, :defenders James Meredith, :forwards Dimitri Petratos, :goalkeepers Brad Jones, :midfielders Jackson Irvine}
+;;=> {:coach Bert van Marwijk, :defenders Josh Risdon, :forwards Jamie Maclaren, :goalkeepers Brad Jones, :midfielders Mark Milligan}
 
 [:world-cup :rosters :belgium]
-;;=> {:coach Roberto Martínez, :defenders Laurent Ciman, :forwards Thorgan Hazard, :goalkeepers Matz Sels, :midfielders Kevin De Bruyne}
+;;=> {:coach Roberto Martínez, :defenders Laurent Ciman, :forwards Christian Benteke, :goalkeepers Koen Casteels, :midfielders Axel Witsel}
 
 [:world-cup :rosters :brazil]
-;;=> {:coach Adenor Leonardo Bacchi, :defenders Marquinhos, :forwards Roberto Firmino, :goalkeepers Ederson, :midfielders Casemiro}
+;;=> {:coach Adenor Leonardo Bacchi, :defenders Marcelo, :forwards Roberto Firmino, :goalkeepers Alisson, :midfielders Philippe Coutinho}
 
 [:world-cup :rosters :columbia]
-;;=> {:coach José Pékerman, :defenders Yerry Mina, :forwards Radamel Falcao, :goalkeepers Camilo Vargas, :midfielders Jefferson Lerma}
+;;=> {:coach José Pékerman, :defenders Johan Mojica, :forwards Teofilo Gutierrez, :goalkeepers Jose Fernando Cuadrado, :midfielders Jose Izquierdo}
 
 [:world-cup :rosters :costa-rica]
-;;=> {:coach Óscar Ramírez, :defenders Oscar Duarte, :forwards Johan Venegas, :goalkeepers Patrick Pemberton, :midfielders Christian Bolanos}
+;;=> {:coach Óscar Ramírez, :defenders Bryan Oviedo, :forwards Joel Campbell, :goalkeepers Leonel Moreira, :midfielders Randall Azofeifa}
 
 [:world-cup :rosters :croatia]
-;;=> {:coach Zlatko Dalić, :defenders Vedran Corluka, :forwards Andrej Kramaric, :goalkeepers Dominik Livakovic, :midfielders Ivan Rakitic}
+;;=> {:coach Zlatko Dalić, :defenders Ivan Strinic, :forwards Mario Mandzukic, :goalkeepers Lovre Kalinic, :midfielders Mateo Kovacic}
 
 [:world-cup :rosters :denmark]
-;;=> {:coach Åge Hareide, :defenders Jannik Vestergaard, :forwards Martin Braithwaite, :goalkeepers Jonas Lossl, :midfielders Thomas Delaney}
+;;=> {:coach Åge Hareide, :defenders Simon Kjaer, :forwards Martin Braithwaite, :goalkeepers Kasper Schmeichel, :midfielders Michael Krohn-Dehli}
 
 [:world-cup :rosters :egypt]
-;;=> {:coach Héctor Cúper, :defenders Saad Samir, :forwards Ahmed Gomaa, :goalkeepers Mohamed Awad, :midfielders Mohamed ElNeny}
+;;=> {:coach Héctor Cúper, :defenders Karim Hafez, :forwards Ahmed Gomaa, :goalkeepers Mohamed Awad, :midfielders Mohamed ElNeny}
 
 [:world-cup :rosters :england]
-;;=> {:coach Gareth Southgate, :defenders Danny Rose, :forwards Harry Kane, :goalkeepers Nick Pope, :midfielders Ashley Young}
+;;=> {:coach Gareth Southgate, :defenders Harry Maguire, :forwards Danny Welbeck, :goalkeepers Jack Butland, :midfielders Ruben Loftus-Cheek}
 
 [:world-cup :rosters :france]
-;;=> {:coach Didier Deschamps, :defenders Djibril Sidibe, :forwards Florian Thauvin, :goalkeepers Steve Mandanda, :midfielders Blaise Matuidi}
+;;=> {:coach Didier Deschamps, :defenders Samuel Umtiti, :forwards Ousmane Dembele, :goalkeepers Steve Mandanda, :midfielders Steven N’Zonzi}
 
 [:world-cup :rosters :germany]
-;;=> {:coach Joachim Löw, :defenders Antonio Rudiger, :forwards Mario Gomez, :goalkeepers Marc-Andre ter Stegen, :midfielders Ilkay Gundogan}
+;;=> {:coach Joachim Löw, :defenders Mats Hummels, :forwards Thomas Muller, :goalkeepers Marc-Andre ter Stegen, :midfielders Sami Khedira}
 
 [:world-cup :rosters :iceland]
-;;=> {:coach Heimir Hallgrímsson, :defenders Ari Freyr Skulason, :forwards Bjorn Bergmann Sigurdarson, :goalkeepers Hannes Thor Halldorsson, :midfielders Aaron Einar Gunnarsson}
+;;=> {:coach Heimir Hallgrímsson, :defenders Sverrir Ingi Ingason, :forwards Jon Dadi Bodvarsson, :goalkeepers Frederik Schram, :midfielders Birkir Bjarnason}
 
 [:world-cup :rosters :iran]
-;;=> {:coach Carlos Queiroz, :defenders Milad Mohammadi, :forwards Alireza Jahanbakhsh, :goalkeepers Alireza Beiranvand, :midfielders Saeid Ezatolahi}
+;;=> {:coach Carlos Queiroz, :defenders Milad Mohammadi, :forwards Saman Ghoddos, :goalkeepers Alireza Beiranvand, :midfielders Vahid Amiri}
 
 [:world-cup :rosters :japan]
-;;=> {:coach Akira Nishino, :defenders Hiroki Sakai, :forwards Yuya Osako, :goalkeepers Masaaki Higashiguchi, :midfielders Takashi Usami}
+;;=> {:coach Akira Nishino, :defenders Maya Yoshida, :forwards Yuya Osako, :goalkeepers Masaaki Higashiguchi, :midfielders Takashi Usami}
 
 [:world-cup :rosters :mexico]
-;;=> {:coach Juan Carlos Osorio, :defenders Diego Reyes, :forwards Jesus 'Tecatito' Corona, :goalkeepers Guillermo Ochoa, :midfielders Jonathan dos Santos}
+;;=> {:coach Juan Carlos Osorio, :defenders Carlos Salcedo, :forwards Hirving Lozano, :goalkeepers Alfredo Talavera, :midfielders Hector Herrera}
 
 [:world-cup :rosters :morocco]
-;;=> {:coach Hervé Renard, :defenders Manuel Da Costa, :forwards Mehdi Carcela, :goalkeepers Mounir El Kajoui, :midfielders Youssef Ait Bennasser}
+;;=> {:coach Hervé Renard, :defenders Medhi Benatia, :forwards Aziz Bouhaddouz, :goalkeepers Ahmad Reda Tagnaouti, :midfielders Karim El Ahmadi}
 
 [:world-cup :rosters :nigeria]
-;;=> {:coach Gernot Rohr, :defenders William Troost-Ekong, :forwards Moses Simon, :goalkeepers Francis Uzoho, :midfielders Joel Obi}
+;;=> {:coach Gernot Rohr, :defenders Ola Aina, :forwards Odion Ighalo, :goalkeepers Ikechukwu Ezenwa, :midfielders Oghenekaro Etebo}
 
 [:world-cup :rosters :panama]
-;;=> {:coach Hernán Darío Gómez, :defenders Fidel Escobar, :forwards Blas Perez, :goalkeepers Jose Calderon, :midfielders Alberto Quintero}
+;;=> {:coach Hernán Darío Gómez, :defenders Fidel Escobar, :forwards Abdiel Arroyo, :goalkeepers Jose Calderon, :midfielders Edgar Barcenas}
 
 [:world-cup :rosters :peru]
-;;=> {:coach Ricardo Gareca, :defenders Miguel Trauco, :forwards Raul Ruidiaz, :goalkeepers Jose Carvallo, :midfielders Edison Flores}
+;;=> {:coach Ricardo Gareca, :defenders Miguel Araujo, :forwards Paolo Guerrero, :goalkeepers Carlos Caceda, :midfielders Pedro Aquino}
 
 [:world-cup :rosters :poland]
-;;=> {:coach Adam Nawałka, :defenders Jan Bednarek, :forwards Lukasz Teodorczyk, :goalkeepers Wojciech Szczesny, :midfielders Krzysztof Maczynski}
+;;=> {:coach Adam Nawałka, :defenders Michal Pazdan, :forwards Lukasz Teodorczyk, :goalkeepers Lukasz Fabianski, :midfielders Pawel Dawidowicz}
 
 [:world-cup :rosters :portugal]
-;;=> {:coach Fernando Santos, :defenders Ruben Dias, :forwards Ricardo Quaresma, :goalkeepers Anthony Lopes, :midfielders Manuel Fernandes}
+;;=> {:coach Fernando Santos, :defenders Cedric Soares, :forwards Cristiano Ronaldo, :goalkeepers Rui Patricio, :midfielders William Carvalho}
 
 [:world-cup :rosters :russia]
-;;=> {:coach Stanislav Cherchesov, :defenders Sergei Ignashevich, :forwards Alexei Miranchuk, :goalkeepers Igor Akinfeev, :midfielders Denis Cheryshev}
+;;=> {:coach Stanislav Cherchesov, :defenders Roman Neustadter, :forwards Fyodor Chalov, :goalkeepers Andrei Lunev, :midfielders Alexander Samedov}
 
 [:world-cup :rosters :saudi-arabia]
-;;=> {:coach Juan Antonio Pizzi, :defenders Omar Hawsawi, :forwards Muhannad Assiri, :goalkeepers Yasser Al-Musailem, :midfielders Mohamed Kanno}
+;;=> {:coach Juan Antonio Pizzi, :defenders Saeed Al-Mowalad, :forwards Muhannad Assiri, :goalkeepers Mohammed Al-Owais, :midfielders Mohamed Kanno}
 
 [:world-cup :rosters :senegal]
-;;=> {:coach Aliou Cissé, :defenders Kalidou Koulibaly, :forwards Moussa Sow, :goalkeepers Alfred Gomis, :midfielders Cheikh Ndoye}
+;;=> {:coach Aliou Cissé, :defenders Kalidou Koulibaly, :forwards Keita Balde, :goalkeepers Abdoulaye Diallo, :midfielders Cheikh Ndoye}
 
 [:world-cup :rosters :serbia]
-;;=> {:coach Mladen Krstajić, :defenders Uros Spajic, :forwards Luka Jovic, :goalkeepers Aleksandar Jovanovic, :midfielders Marko Grujic}
+;;=> {:coach Mladen Krstajić, :defenders Aleksandar Kolarov, :forwards Aleksandar Mitrovic, :goalkeepers Vladimir Stojkovic, :midfielders Adem Ljajic}
 
 [:world-cup :rosters :south-korea]
-;;=> {:coach Shin Tae-yong, :defenders Kim Jin-su, :forwards Son Heung-min, :goalkeepers Kim Seung-gyu, :midfielders Lee Chung-yong}
+;;=> {:coach Shin Tae-yong, :defenders Lee Yong, :forwards Kim Shin-wook, :goalkeepers Kim Seung-gyu, :midfielders Moon Seon-min}
 
 [:world-cup :rosters :spain]
-;;=> {:coach Fernando Hierro, :defenders Dani Carvajal, :forwards Marco Asensio, :goalkeepers Kepa Arrizabalaga, :midfielders David Silva}
+;;=> {:coach Fernando Hierro, :defenders Jordi Alba, :forwards Iago Aspas, :goalkeepers Kepa Arrizabalaga, :midfielders Sergio Busquets}
 
 [:world-cup :rosters :sweden]
-;;=> {:coach Janne Andersson, :defenders Filip Helander, :forwards Ola Toivonen, :goalkeepers Karl-Johan Johnsson, :midfielders Viktor Claesson}
+;;=> {:coach Janne Andersson, :defenders Filip Helander, :forwards Ola Toivonen, :goalkeepers Kristoffer Nordfeldt, :midfielders Emil Forsberg}
 
 [:world-cup :rosters :switzerland]
-;;=> {:coach Vladimir Petković, :defenders Manuel Akanji, :forwards Josip Drmić, :goalkeepers Gregor Kobel, :midfielders Denis Zakaria}
+;;=> {:coach Vladimir Petković, :defenders Stephan Lichtsteiner, :forwards Josip Drmić, :goalkeepers Roman Bürki, :midfielders Granit Xhaka}
 
 [:world-cup :rosters :tunisia]
-;;=> {:coach Nabil Maâloul, :defenders Yassine Meriah, :forwards Bassem Srarfi, :goalkeepers Farouk Ben Mustapha, :midfielders Mohamed Wael Larbi}
+;;=> {:coach Nabil Maâloul, :defenders Dylan Bronn, :forwards Anice Badri, :goalkeepers Farouk Ben Mustapha, :midfielders Karim Laribi}
 
 [:world-cup :rosters :uruguay]
-;;=> {:coach Óscar Tabárez, :defenders Maximiliano Pereira, :forwards Edinson Cavani, :goalkeepers Martin Silva, :midfielders Nahitan Nandez}
+;;=> {:coach Óscar Tabárez, :defenders Guillermo Varela, :forwards Luis Suarez, :goalkeepers Martin Silva, :midfielders Nahitan Nandez}
 
 [:world-cup :stadiums]
-;;=> Luzhniki Stadium
+;;=> Saint Petersburg Stadium
 
 [:world-cup :teams]
-;;=> Peru
+;;=> Germany
 
 [:yoda :quotes]
-;;=> Mudhole? Slimy? My home this is!
+;;=> Ow, ow, OW! On my ear you are!
 

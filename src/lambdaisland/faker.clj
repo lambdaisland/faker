@@ -224,70 +224,68 @@
 (defmethod -fake [:creature :bird :common-name] [rng path]
   (handle-result rng path (apply concat (vals (lookup [:creature :bird :order-common-map])))))
 
-(fake [:creature :bird :common-name])
-
 (defmethod -fake [:internet :email] [rng path]
   (handle-result rng path "#{username}@#{domain-name}"))
 
 (defmethod -fake [:internet :domain-name] [rng _]
-(str (clamp-str
-      (str/replace (str/lower-case (fake [:company :name])) #"[^a-z-]" "")
-      15)
-"."
-(fake rng [:internet :domain-suffix])))
+  (str (clamp-str
+        (str/replace (str/lower-case (fake [:company :name])) #"[^a-z-]" "")
+        15)
+       "."
+       (fake rng [:internet :domain-suffix])))
 
 (defmethod -fake [:internet :username] [rng _]
-(str/replace
-(str/lower-case
- (case (rand-int 3)
-   0 (fake rng [:name :first-name])
-   1 (str (fake rng [:name :first-name])
-          (random-nth rng ["." "_"])
-          (fake rng [:name :last-name]))
-   2 (str (fake rng [:name :first-name]) (random-int rng 99))))
-#"[^a-z0-9\.-]" ""))
+  (str/replace
+   (str/lower-case
+    (case (rand-int 3)
+      0 (fake rng [:name :first-name])
+      1 (str (fake rng [:name :first-name])
+             (random-nth rng ["." "_"])
+             (fake rng [:name :last-name]))
+      2 (str (fake rng [:name :first-name]) (random-int rng 99))))
+   #"[^a-z0-9\.-]" ""))
 
 (defmethod -fake [:lorem :sentence] [rng _]
-(str (->> (repeatedly #(-fake rng [:lorem :words]))
-          (take (+ 4 (random-int rng 12)))
-          (str/join " ")
-          str/capitalize)
-"."))
+  (str (->> (repeatedly #(-fake rng [:lorem :words]))
+            (take (+ 4 (random-int rng 12)))
+            (str/join " ")
+            str/capitalize)
+       "."))
 
 (defmethod -fake [:lorem :paragraph] [rng _]
-(->> (repeatedly #(-fake rng [:lorem :sentence]))
-(take (+ 2 (random-int rng 5)))
-(str/join " ")))
+  (->> (repeatedly #(-fake rng [:lorem :sentence]))
+       (take (+ 2 (random-int rng 5)))
+       (str/join " ")))
 
 (defmethod -fake [:time :date] [rng _]
-;; 1997-05-19 -> 2024-10-04
-(java.time.LocalDate/ofEpochDay (+ 10000
-                                   (random-int rng 10000))))
+  ;; 1997-05-19 -> 2024-10-04
+  (java.time.LocalDate/ofEpochDay (+ 10000
+                                     (random-int rng 10000))))
 
 (defmethod -fake [:time :year] [rng _]
-(+ 1970 (random-int rng 40)))
+  (+ 1970 (random-int rng 40)))
 
 (defmethod -fake [:time :time] [rng _]
-(java.time.LocalTime/ofNanoOfDay (random-int rng 86400000000000)))
+  (java.time.LocalTime/ofNanoOfDay (random-int rng 86400000000000)))
 
 (defmethod -fake [:time :date-time] [rng _]
-(java.time.LocalDateTime/of (fake rng [:time :date])
-(fake rng [:time :time])))
+  (java.time.LocalDateTime/of (fake rng [:time :date])
+                              (fake rng [:time :time])))
 
 (defmethod -fake [:number :small-integer] [rng _]
-(random-int rng 1000))
+  (random-int rng 1000))
 
 (defmethod -fake [:number :big-integer] [rng _]
-(random-int rng 1e15))
+  (random-int rng 1e15))
 
 (defmethod -fake [:number :decimal] [rng _]
-(bigdec (/ (random-int rng 100000) 100)))
+  (bigdec (/ (random-int rng 100000) 100)))
 
 (defmethod -fake [:number :percentage] [rng _]
-(bigdec (inc (random-int rng 99))))
+  (bigdec (inc (random-int rng 99))))
 
 (defmethod -fake [:number :float] [rng _]
-(* (rand-next rng) (random-int rng 100)))
+  (* (rand-next rng) (random-int rng 100)))
 
 #_(fake [:number])
 ;; => {:big-integer 436587027687068,
@@ -297,22 +295,22 @@
 ;;     :small-integer 792}
 
 (defn handle-result [rng path result]
-(let [rng (rand-split rng)]
-(cond
-  (sequential? result)
-  (handle-result rng path (random-nth rng result))
+  (let [rng (rand-split rng)]
+    (cond
+      (sequential? result)
+      (handle-result rng path (random-nth rng result))
 
-  (string? result)
-  (-> result
-      (str/replace #"#\{(.*?)\}"
-                   (fn [[_ pat]]
-                     (let [pat (str/replace pat #"_" "-")]
-                       (cond
-                         (re-matches #"\d+" pat)
-                         (format (str "%0" pat "d") (random-int rng (Math/pow 10 (Integer/parseInt pat))))
-                         (some #{\.} pat)
-                         (fake rng (map keyword (str/split (str/lower-case pat) #"\.")))
-                         :else
+      (string? result)
+      (-> result
+          (str/replace #"#\{(.*?)\}"
+                       (fn [[_ pat]]
+                         (let [pat (str/replace pat #"_" "-")]
+                           (cond
+                             (re-matches #"\d+" pat)
+                             (format (str "%0" pat "d") (random-int rng (Math/pow 10 (Integer/parseInt pat))))
+                             (some #{\.} pat)
+                             (fake rng (map keyword (str/split (str/lower-case pat) #"\.")))
+                             :else
                              (fake rng (concat (butlast path) [(keyword pat)]))))))
           (str/replace #"#" (fn [_] (str (random-int rng 10)))))
 

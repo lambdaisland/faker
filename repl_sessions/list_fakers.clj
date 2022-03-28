@@ -6,6 +6,7 @@
 (def all
   (reduce
    faker/deep-merge
+   {}
    (map faker/slurp-transit
         (filter #(str/ends-with? (str %) ".transit")
                 (file-seq (io/file "resources/lambdaisland/faker/locales"))))))
@@ -30,7 +31,8 @@
         (doseq [f (sort-by str
                            (concat
                             (remove (set (map #(vec (take 2 %)) l3)) l2)
-                            l3))]
+                            l3
+                            (keys (.getMethodTable faker/-fake))))]
           (let [res (try (faker/fake f) (catch Exception e))]
             (when res
               (println f)
@@ -44,21 +46,11 @@
         (doseq [f (sort-by str
                            (concat
                             (remove (set (map #(vec (take 2 %)) l3)) l2)
-                            l3))]
+                            l3
+                            (keys (.getMethodTable faker/-fake))))]
           (let [res (try (faker/fake f) (catch Exception e e))]
             (when (or (nil? res) (instance? Throwable res))
               (println f)
               (print ";;=> ")
               (println (when res (.getName (class res))))
               (println))))))
-
-l3
-l2
-
-(binding [faker/*locale* :uk]
-  (faker/lookup [:address :feminine-street-prefix]))
-
-
-(faker/lookup [:address :full-address])
-(faker/fake [:address :full-address])
-(faker/lookup [:address :zip-code])
