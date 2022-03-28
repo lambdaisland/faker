@@ -14,13 +14,13 @@ Port of the Faker Ruby gem
 To use the latest release, add the following to your `deps.edn` ([Clojure CLI](https://clojure.org/guides/deps_and_cli))
 
 ```
-com.lambdaisland/faker {:mvn/version "0.0.0"}
+com.lambdaisland/faker {:mvn/version "0.1.4"}
 ```
 
 or add the following to your `project.clj` ([Leiningen](https://leiningen.org/))
 
 ```
-[com.lambdaisland/faker "0.0.0"]
+[com.lambdaisland/faker "0.1.4"]
 ```
 <!-- /installation -->
 
