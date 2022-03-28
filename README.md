@@ -62,7 +62,13 @@ this allows you to generate related values.
 ;; => {:name "Freiherrin Marlena Daimer", :email "marlenadaimer@daimerohg.com"}
 ```
 
-See the comment at the bottom of the namespace for examples.
+Not all fakers from the Ruby gem work, we mainly support the ones where a value
+is picked from a list, or a template is populated with values from other fakers.
+Some fakers rely on custom logic which often hasn't been ported. See the file
+[[supported_fakers.clj]] for all fakers that currently return a value, and
+[[unsupported_fakers.clj]] for the ones that return `nil` or throw an exception.
+Note that "supported" is defined loosely, e.g. the credit card faker currently
+returns the pattern string rather than a valid number.
   
   
 <!-- opencollective -->
