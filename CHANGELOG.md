@@ -1,10 +1,8 @@
 # Unreleased
 
-## Added
-
 ## Fixed
 
-## Changed
+- Fix botched release: load error
 
 # 0.1.4 (2022-03-28 / 631867c)
 
