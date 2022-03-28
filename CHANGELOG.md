@@ -1,4 +1,4 @@
-# Unreleased
+# 0.2.8 (2022-03-28 / 45c1a7b)
 
 ## Fixed
 
